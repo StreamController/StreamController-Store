@@ -2,5 +2,17 @@
     {
         "url": "https://github.com/Core447/MediaPlugin",
         "verified-commit": "8884ac3d040d7ebbdc51a20445c8d04112462f97"
+    },
+    {
+        "url": "https://github.com/Core447/OBSPlugin",
+        "verified-commit": "74f99722943e28fb450de7543fa36301ebf8f31b"
+    },
+    {
+        "url": "https://github.com/Core447/DeckPlugin",
+        "verified-commit": "1adb5eb876f0b89259c57a1a8248bc917cdeb8c7"
+    },
+    {
+        "url": "https://github.com/Core447/OSPlugin",
+        "verified-commit": "8f1320a50ee87d2e0afa127ef74590b7f38dd4a2"
     }
 ]
