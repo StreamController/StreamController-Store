@@ -1,2 +1,2 @@
 # StreamController-Plugins
-The plugin repo for the StreamController
+This repo contains links to all assets of [StreamController](https://github.com/Core447/StreamController).
