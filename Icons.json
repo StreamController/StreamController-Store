@@ -1,6 +1,8 @@
 [
     {
         "url": "https://github.com/Core447/Material-Icons",
-        "verified-commit": "a079fabc31acb66a2b135e28a93c91af9e7cb215"
+        "commits": {
+            "0.1.0-alpha": "a079fabc31acb66a2b135e28a93c91af9e7cb215"
+        }
     }
 ]

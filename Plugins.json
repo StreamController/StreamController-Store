@@ -1,18 +1,26 @@
 [
     {
         "url": "https://github.com/Core447/MediaPlugin",
-        "verified-commit": "fa8a1348e9c7b40e68c5467d0b5f14a01edb8d6d"
+        "commits": {
+            "0.1.0-alpha": "fa8a1348e9c7b40e68c5467d0b5f14a01edb8d6d"
+        }
     },
     {
         "url": "https://github.com/Core447/OBSPlugin",
-        "verified-commit": "8ce92bb998180a26263099af5917ec3f300d2f1d"
+        "commits": {
+            "0.1.0-alpha": "8ce92bb998180a26263099af5917ec3f300d2f1d"
+        }
     },
     {
         "url": "https://github.com/Core447/DeckPlugin",
-        "verified-commit": "c360e5441e338b7895e1adc022d1796cdbc27469"
+        "commits": {
+            "0.1.1-alpha": "62befd4c262e2d2be13277222ffd073ac9cb8650"
+        }
     },
     {
         "url": "https://github.com/Core447/OSPlugin",
-        "verified-commit": "a1681b8ecfa2d95d034586b2744cb32fc94f7893"
+        "commits" : {
+            "0.1.0-alpha": "a1681b8ecfa2d95d034586b2744cb32fc94f7893"
+        }
     }
 ]

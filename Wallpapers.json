@@ -1,6 +1,8 @@
 [
     {
         "url": "https://github.com/Core447/Pixabay-Favorites",
-        "verified-commit": "5138f5eb9a10b2f11e2f3fc4f95ca06af8c9e9c6"
+        "commits": {
+            "0.1.0-alpha": "5138f5eb9a10b2f11e2f3fc4f95ca06af8c9e9c6"
+        }
     }
 ]
