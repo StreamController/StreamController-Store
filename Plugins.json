@@ -20,7 +20,8 @@
     {
         "url": "https://github.com/Core447/OSPlugin",
         "commits" : {
-            "0.1.0-alpha": "a1681b8ecfa2d95d034586b2744cb32fc94f7893"
+            "0.1.0-alpha": "a1681b8ecfa2d95d034586b2744cb32fc94f7893",
+            "0.1.1-alpha": "6d8431bee4d24d969bdeaf953b00d0c1f048846a"
         }
     }
 ]
