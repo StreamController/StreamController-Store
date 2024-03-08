@@ -41,5 +41,11 @@
         "commits": {
             "1.0.0-alpha": "319b0990eabed7993c9e92b51d38c8c936459815"
         }
+    },
+    {
+        "url": "https://github.com/Core447/Weather",
+        "commits": {
+            "1.0.0-alpha": "d691ea8bc9846d3b5109e5c9cd28ed870c3061e6"
+        }
     }
 ]
