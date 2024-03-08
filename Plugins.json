@@ -35,5 +35,11 @@
         "commits": {
             "1.0.0-alpha": "b67d5bcd185958cebbae17c1cf1b5649dea7f55f"
         }
+    },
+    {
+        "url": "https://github.com/Core447/Clocks",
+        "commits": {
+            "1.0.0-alpha": "319b0990eabed7993c9e92b51d38c8c936459815"
+        }
     }
 ]
