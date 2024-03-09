@@ -53,6 +53,11 @@
         "commits": {
             "1.0.0-alpha": "83e931aaab2846865387c0b39ff568549cdb1f54"
         }
-    }
+    },
+    {
+        "url": "https://github.com/StreamController/VolumeMixer",
+        "commits": {
+            "1.0.0-alpha": "f1327405a628fa828421cab1ad74bba300d1afac"
+        }
     }
 ]
