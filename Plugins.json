@@ -47,5 +47,12 @@
         "commits": {
             "1.0.0-alpha": "d691ea8bc9846d3b5109e5c9cd28ed870c3061e6"
         }
+    },
+    {
+        "url": "https://github.com/StreamController/Counter",
+        "commits": {
+            "1.0.0-alpha": "83e931aaab2846865387c0b39ff568549cdb1f54"
+        }
+    }
     }
 ]
