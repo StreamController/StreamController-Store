@@ -1,6 +1,6 @@
 [
     {
-        "url": "https://github.com/Core447/MediaPlugin",
+        "url": "https://github.com/StreamController/MediaPlugin",
         "commits": {
             "0.1.0-alpha": "fa8a1348e9c7b40e68c5467d0b5f14a01edb8d6d",
             "0.1.1-alpha": "36ff8adb99bfd4c5b679f3e37499c107e5f8f09f",
@@ -8,7 +8,7 @@
         }
     },
     {
-        "url": "https://github.com/Core447/OBSPlugin",
+        "url": "https://github.com/StreamController/OBSPlugin",
         "commits": {
             "0.1.0-alpha": "8ce92bb998180a26263099af5917ec3f300d2f1d",
             "0.1.1-alpha": "e0823734c9dcb958674714613207234f79cb2030",
@@ -16,14 +16,14 @@
         }
     },
     {
-        "url": "https://github.com/Core447/DeckPlugin",
+        "url": "https://github.com/StreamController/DeckPlugin",
         "commits": {
             "0.1.1-alpha": "935cda112ab564be98497d5c9e544def30c573d9",
             "1.0.0-alpha": "f07bb73bd01d7cf584713ee3d04e529ba575488c"
         }
     },
     {
-        "url": "https://github.com/Core447/OSPlugin",
+        "url": "https://github.com/StreamController/OSPlugin",
         "commits" : {
             "0.1.0-alpha": "a1681b8ecfa2d95d034586b2744cb32fc94f7893",
             "0.1.1-alpha": "ea84116d9bdfc24b2b332865ee6579402a07567a",
@@ -31,19 +31,19 @@
         }
     },
     {
-        "url": "https://github.com/Core447/Requests",
+        "url": "https://github.com/StreamController/Requests",
         "commits": {
             "1.0.0-alpha": "b67d5bcd185958cebbae17c1cf1b5649dea7f55f"
         }
     },
     {
-        "url": "https://github.com/Core447/Clocks",
+        "url": "https://github.com/StreamController/Clocks",
         "commits": {
             "1.0.0-alpha": "319b0990eabed7993c9e92b51d38c8c936459815"
         }
     },
     {
-        "url": "https://github.com/Core447/Weather",
+        "url": "https://github.com/StreamController/Weather",
         "commits": {
             "1.0.0-alpha": "d691ea8bc9846d3b5109e5c9cd28ed870c3061e6"
         }
