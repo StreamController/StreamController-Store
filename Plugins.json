@@ -60,5 +60,11 @@
         "commits": {
             "1.0.0-alpha": "f1327405a628fa828421cab1ad74bba300d1afac"
         }
+    },
+    {
+        "url": "https://github.com/StreamController/Speedtest",
+        "commits": {
+            "1.1.1-alpha": "09d15a1682ef31d4ef62f649ed07729fb8611624"
+        }
     }
 ]
