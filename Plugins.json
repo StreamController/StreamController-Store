@@ -4,7 +4,8 @@
         "commits": {
             "0.1.0-alpha": "fa8a1348e9c7b40e68c5467d0b5f14a01edb8d6d",
             "0.1.1-alpha": "36ff8adb99bfd4c5b679f3e37499c107e5f8f09f",
-            "1.0.0-alpha": "7e524ad37d8382dfbf3f71aa9d851651c89ebc89"
+            "1.0.0-alpha": "7e524ad37d8382dfbf3f71aa9d851651c89ebc89",
+            "1.1.1-alpha": "aaf96d09ecaa77f33af5c3642da73c32c06b16d5"
         }
     },
     {
@@ -20,7 +21,8 @@
         "url": "https://github.com/StreamController/DeckPlugin",
         "commits": {
             "0.1.1-alpha": "935cda112ab564be98497d5c9e544def30c573d9",
-            "1.0.0-alpha": "f07bb73bd01d7cf584713ee3d04e529ba575488c"
+            "1.0.0-alpha": "f07bb73bd01d7cf584713ee3d04e529ba575488c",
+            "1.1.1-alpha": "7546c7c697622f3fb3a80e661ed5b92769f25da5"
         }
     },
     {
@@ -28,13 +30,15 @@
         "commits" : {
             "0.1.0-alpha": "a1681b8ecfa2d95d034586b2744cb32fc94f7893",
             "0.1.1-alpha": "ea84116d9bdfc24b2b332865ee6579402a07567a",
-            "1.0.0-alpha": "f2572785493da0a4d72d0820c95432e07eaf2c0f"
+            "1.0.0-alpha": "f2572785493da0a4d72d0820c95432e07eaf2c0f",
+            "1.1.1-alpha": "85d530e4c5b90dd58ca9ec9f77140a06d507365e"
         }
     },
     {
         "url": "https://github.com/StreamController/Requests",
         "commits": {
-            "1.0.0-alpha": "4889f2e09d584b855cb2145d26c048e58feac881"
+            "1.0.0-alpha": "4889f2e09d584b855cb2145d26c048e58feac881",
+            "1.1.1-alpha": "85b6f7befcb799f602ccd05548e29eca0b0fc7b9"
         }
     },
     {
@@ -47,7 +51,8 @@
     {
         "url": "https://github.com/StreamController/Weather",
         "commits": {
-            "1.0.0-alpha": "d691ea8bc9846d3b5109e5c9cd28ed870c3061e6"
+            "1.0.0-alpha": "d691ea8bc9846d3b5109e5c9cd28ed870c3061e6",
+            "1.1.1-alpha": "19359f0d0dd1082a6b352aa77187ead808263b7c"
         }
     },
     {
