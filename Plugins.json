@@ -5,7 +5,8 @@
             "0.1.0-alpha": "fa8a1348e9c7b40e68c5467d0b5f14a01edb8d6d",
             "0.1.1-alpha": "36ff8adb99bfd4c5b679f3e37499c107e5f8f09f",
             "1.0.0-alpha": "7e524ad37d8382dfbf3f71aa9d851651c89ebc89",
-            "1.1.1-alpha": "aaf96d09ecaa77f33af5c3642da73c32c06b16d5"
+            "1.1.1-alpha": "aaf96d09ecaa77f33af5c3642da73c32c06b16d5",
+            "1.2.0-alpha": "787273eff52afb1f37b39e177ce18589d33bc8a8"
         }
     },
     {
@@ -14,7 +15,8 @@
             "0.1.0-alpha": "8ce92bb998180a26263099af5917ec3f300d2f1d",
             "0.1.1-alpha": "e0823734c9dcb958674714613207234f79cb2030",
             "1.0.0-alpha": "c5271e732c8ee10c2fb3706c5bd6ace562d51415",
-            "1.1.1-alpha": "eac4b0f4daebad669ddddd333d1e1761f98b4152"
+            "1.1.1-alpha": "eac4b0f4daebad669ddddd333d1e1761f98b4152",
+            "1.2.0-alpha": "931073ceb3b10cdfe1b7f094eff6e4ea7a3d220e"
         }
     },
     {
@@ -22,7 +24,8 @@
         "commits": {
             "0.1.1-alpha": "935cda112ab564be98497d5c9e544def30c573d9",
             "1.0.0-alpha": "f07bb73bd01d7cf584713ee3d04e529ba575488c",
-            "1.1.1-alpha": "7546c7c697622f3fb3a80e661ed5b92769f25da5"
+            "1.1.1-alpha": "7546c7c697622f3fb3a80e661ed5b92769f25da5",
+            "1.2.0-alpha": "7546c7c697622f3fb3a80e661ed5b92769f25da5"
         }
     },
     {
@@ -31,46 +34,53 @@
             "0.1.0-alpha": "a1681b8ecfa2d95d034586b2744cb32fc94f7893",
             "0.1.1-alpha": "ea84116d9bdfc24b2b332865ee6579402a07567a",
             "1.0.0-alpha": "f2572785493da0a4d72d0820c95432e07eaf2c0f",
-            "1.1.1-alpha": "85d530e4c5b90dd58ca9ec9f77140a06d507365e"
+            "1.1.1-alpha": "85d530e4c5b90dd58ca9ec9f77140a06d507365e",
+            "1.2.0-alpha": "85d530e4c5b90dd58ca9ec9f77140a06d507365e"
         }
     },
     {
         "url": "https://github.com/StreamController/Requests",
         "commits": {
             "1.0.0-alpha": "4889f2e09d584b855cb2145d26c048e58feac881",
-            "1.1.1-alpha": "85b6f7befcb799f602ccd05548e29eca0b0fc7b9"
+            "1.1.1-alpha": "85b6f7befcb799f602ccd05548e29eca0b0fc7b9",
+            "1.2.0-alpha": "6c2305b2d431315fb67b942e27940d9ecfb50ec1"
         }
     },
     {
         "url": "https://github.com/StreamController/Clocks",
         "commits": {
             "1.0.0-alpha": "f54ca6c1614615cb5fe3d6fba88bdf17f6c765c2",
-            "1.1.1-alpha": "07f62f0d8dd6d902840410696e4e38fdc32021ee"
+            "1.1.1-alpha": "07f62f0d8dd6d902840410696e4e38fdc32021ee",
+            "1.2.0-alpha": "e395cc5c5e6f42ec34941c73e78f2286c35863e9"
         }
     },
     {
         "url": "https://github.com/StreamController/Weather",
         "commits": {
             "1.0.0-alpha": "d691ea8bc9846d3b5109e5c9cd28ed870c3061e6",
-            "1.1.1-alpha": "19359f0d0dd1082a6b352aa77187ead808263b7c"
+            "1.1.1-alpha": "19359f0d0dd1082a6b352aa77187ead808263b7c",
+            "1.2.0-alpha": "19359f0d0dd1082a6b352aa77187ead808263b7c"
         }
     },
     {
         "url": "https://github.com/StreamController/Counter",
         "commits": {
-            "1.0.0-alpha": "83e931aaab2846865387c0b39ff568549cdb1f54"
+            "1.0.0-alpha": "83e931aaab2846865387c0b39ff568549cdb1f54",
+            "1.2.0-alpha": "83e931aaab2846865387c0b39ff568549cdb1f54"
         }
     },
     {
         "url": "https://github.com/StreamController/VolumeMixer",
         "commits": {
-            "1.0.0-alpha": "f1327405a628fa828421cab1ad74bba300d1afac"
+            "1.0.0-alpha": "f1327405a628fa828421cab1ad74bba300d1afac",
+            "1.2.0-alpha": "2b7e21df5511334fad1a13eaac7755fcdf6df54f"
         }
     },
     {
         "url": "https://github.com/StreamController/Speedtest",
         "commits": {
-            "1.1.1-alpha": "09d15a1682ef31d4ef62f649ed07729fb8611624"
+            "1.1.1-alpha": "09d15a1682ef31d4ef62f649ed07729fb8611624",
+            "1.2.0-alpha": "38dd7e79192718b05f5c7b5992aa2884aa512451"
         }
     }
 ]
