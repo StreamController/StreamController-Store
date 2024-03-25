@@ -52,7 +52,7 @@
             "1.0.0-alpha": "f54ca6c1614615cb5fe3d6fba88bdf17f6c765c2",
             "1.1.1-alpha": "07f62f0d8dd6d902840410696e4e38fdc32021ee",
             "1.2.0-alpha": "e395cc5c5e6f42ec34941c73e78f2286c35863e9"
-        }
+        }c
     },
     {
         "url": "https://github.com/StreamController/Weather",
@@ -81,6 +81,12 @@
         "commits": {
             "1.1.1-alpha": "09d15a1682ef31d4ef62f649ed07729fb8611624",
             "1.2.0-alpha": "38dd7e79192718b05f5c7b5992aa2884aa512451"
+        }
+    },
+    {
+        "url": "https://github.com/StreamController/GnomeWindowCalls",
+        "commits": {
+            "1.2.0-alpha": "689e935f820c43b7be68162ff1c087564276a767"
         }
     }
 ]
