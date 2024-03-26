@@ -40,7 +40,7 @@ def find_outdated_assets(json_path: str):
 
     return outdated_urls
 
-def update_assets(json_path: str):
+def update_assets(json_path: str, app_version: str = None):
     with open(json_path) as json_file:
         data = json.load(json_file)
 
@@ -50,10 +50,11 @@ def update_assets(json_path: str):
         newest_commit_on_github = get_newest_github_sha(url)
 
         if newest_commit_in_store != newest_commit_on_github:
-            asset['commits'][max(asset['commits'])] = newest_commit_on_github
+            version = max(asset['commits']) if app_version is None else app_version
+            asset['commits'][version] = newest_commit_on_github
 
     with open(json_path, 'w') as json_file:
         json.dump(data, json_file, indent=4)
 
-print(find_outdated_assets('Plugins.json'))
-update_assets('Plugins.json')
+print(find_outdated_assets('Icons.json'))
+update_assets('Icons.json', app_version="1.2.0-alpha")
