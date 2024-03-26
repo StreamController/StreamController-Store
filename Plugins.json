@@ -43,7 +43,7 @@
         "commits": {
             "1.0.0-alpha": "4889f2e09d584b855cb2145d26c048e58feac881",
             "1.1.1-alpha": "85b6f7befcb799f602ccd05548e29eca0b0fc7b9",
-            "1.2.0-alpha": "adea103455693a85b9e30ea31c0ea300086a7971"
+            "1.2.0-alpha": "f09a2ec5f2da7cbc337657a0a62bfeac22408da2"
         }
     },
     {
@@ -59,7 +59,7 @@
         "commits": {
             "1.0.0-alpha": "d691ea8bc9846d3b5109e5c9cd28ed870c3061e6",
             "1.1.1-alpha": "19359f0d0dd1082a6b352aa77187ead808263b7c",
-            "1.2.0-alpha": "276c721f05d85a283691dfb2e12cbf8c598fb1a2"
+            "1.2.0-alpha": "f6a1134635b5f6d5ee6b7fc39a43faacaf470942"
         }
     },
     {
@@ -73,7 +73,7 @@
         "url": "https://github.com/StreamController/VolumeMixer",
         "commits": {
             "1.0.0-alpha": "f1327405a628fa828421cab1ad74bba300d1afac",
-            "1.2.0-alpha": "dd2c4f67ca7d5d71167e3b8e0a898f767703d300"
+            "1.2.0-alpha": "65fef1896eadb705f3684271f5e85b71757ba47e"
         }
     },
     {
@@ -86,7 +86,7 @@
     {
         "url": "https://github.com/StreamController/GnomeWindowCalls",
         "commits": {
-            "1.2.0-alpha": "7eb533147516e9c4c0987fb6355eba9b56d12f89"
+            "1.2.0-alpha": "a02f35da6fa5f9a4bc6b9ce324401febe5cd0ce2"
         }
     }
 ]
