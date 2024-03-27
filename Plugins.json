@@ -6,7 +6,7 @@
             "0.1.1-alpha": "36ff8adb99bfd4c5b679f3e37499c107e5f8f09f",
             "1.0.0-alpha": "7e524ad37d8382dfbf3f71aa9d851651c89ebc89",
             "1.1.1-alpha": "aaf96d09ecaa77f33af5c3642da73c32c06b16d5",
-            "1.2.0-alpha": "091fe13f302ac7169db90ac90140314417570932"
+            "1.2.0-alpha": "ac153992de31f5b3293385b1f7e2c9ea1368470c"
         }
     },
     {
@@ -16,7 +16,7 @@
             "0.1.1-alpha": "e0823734c9dcb958674714613207234f79cb2030",
             "1.0.0-alpha": "c5271e732c8ee10c2fb3706c5bd6ace562d51415",
             "1.1.1-alpha": "eac4b0f4daebad669ddddd333d1e1761f98b4152",
-            "1.2.0-alpha": "fc8ee857ecd8739962eac18340a5af54914129ff"
+            "1.2.0-alpha": "c17a5a711887d37a78009847e6f069d9d096c956"
         }
     },
     {
@@ -25,7 +25,7 @@
             "0.1.1-alpha": "935cda112ab564be98497d5c9e544def30c573d9",
             "1.0.0-alpha": "f07bb73bd01d7cf584713ee3d04e529ba575488c",
             "1.1.1-alpha": "7546c7c697622f3fb3a80e661ed5b92769f25da5",
-            "1.2.0-alpha": "dfdcc2b471b97c5807676309209d6451e35fd7e3"
+            "1.2.0-alpha": "00beea54ffce7119c93cf73b0246a3de660c2626"
         }
     },
     {
@@ -66,7 +66,7 @@
         "url": "https://github.com/StreamController/Counter",
         "commits": {
             "1.0.0-alpha": "83e931aaab2846865387c0b39ff568549cdb1f54",
-            "1.2.0-alpha": "edad1321adfb71ff2c9ee61d2deb48460e74da51"
+            "1.2.0-alpha": "0be5b7cf6ff12bc7175317eac82485f4834fa5b5"
         }
     },
     {
@@ -80,13 +80,13 @@
         "url": "https://github.com/StreamController/Speedtest",
         "commits": {
             "1.1.1-alpha": "09d15a1682ef31d4ef62f649ed07729fb8611624",
-            "1.2.0-alpha": "d9cfa0238011d82ab8a4b492c202053e6b9f453e"
+            "1.2.0-alpha": "95b8a3d6fb341e299bc0acbafa0968ecc263ffae"
         }
     },
     {
         "url": "https://github.com/StreamController/GnomeWindowCalls",
         "commits": {
-            "1.2.0-alpha": "a02f35da6fa5f9a4bc6b9ce324401febe5cd0ce2"
+            "1.2.0-alpha": "f6d57dc72eed55138141f11bc503e22cc6cac417"
         }
     }
 ]
