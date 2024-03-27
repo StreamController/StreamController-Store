@@ -88,5 +88,11 @@
         "commits": {
             "1.2.0-alpha": "59500ff6fa21df84a4d944a0e9eb27a6b1d3ffba"
         }
+    },
+    {
+        "url": "https://github.com/StreamController/MicMute",
+        "commits": {
+            "1.2.0-alpha": "10041b3398756107810e27ad81fda40247ef4312"
+        }
     }
 ]
