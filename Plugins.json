@@ -94,5 +94,11 @@
         "commits": {
             "1.2.0-alpha": "e19f0365dad2cceed3e4983e0aa14b2228383a0d"
         }
+    },
+    {
+        "url": "https://github.com/StreamController/Battery",
+        "commits": {
+            "1.2.0-alpha": "31303ab5b2fd60a84c18e3575871035daafcc7cf"
+        }
     }
 ]
