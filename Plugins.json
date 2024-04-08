@@ -100,5 +100,11 @@
         "commits": {
             "1.2.0-alpha": "31303ab5b2fd60a84c18e3575871035daafcc7cf"
         }
+    },
+    {
+        "url": "https://github.com/StreamController/AudioSwitcher",
+        "commits": {
+            "1.4.8-beta": "abdd622c7ee1c0760f2aa806f66c245879db1b12"
+        }
     }
 ]
