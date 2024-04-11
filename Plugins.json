@@ -52,7 +52,8 @@
         "commits": {
             "1.0.0-alpha": "f54ca6c1614615cb5fe3d6fba88bdf17f6c765c2",
             "1.1.1-alpha": "07f62f0d8dd6d902840410696e4e38fdc32021ee",
-            "1.2.0-alpha": "1d15b12d35f10b814a4fb72b8ad0e5adf8b82213"
+            "1.2.0-alpha": "1d15b12d35f10b814a4fb72b8ad0e5adf8b82213",
+            "1.4.8-beta": "8f60ed32de06001dd818c39362cb2d44eb695229"
         }
     },
     {
