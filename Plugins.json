@@ -125,6 +125,12 @@
         }
     },
     {
+        "url": "https://github.com/StreamController/Pi-hole",
+        "commits": {
+            "1.4.10-beta": "1729dfb71c91593cbe48ef2542d95f206f1c877e"
+        }
+    },
+    {
         "url":"https://github.com/G4PLS/AudioControl",
         "commits": {
             "1.0.0-alpha": "d84510cdb5b2eb68f761c1dc5b9655d720d7cc72"
