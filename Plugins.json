@@ -133,7 +133,8 @@
     {
         "url":"https://github.com/G4PLS/AudioControl",
         "commits": {
-            "1.0.0-alpha": "d84510cdb5b2eb68f761c1dc5b9655d720d7cc72"
+            "1.0.0-alpha": "d84510cdb5b2eb68f761c1dc5b9655d720d7cc72",
+            "1.4.11-beta": "ea0a59f948ccd435a9052ee46f173a4700c775e9"
         }
     }
 ]
