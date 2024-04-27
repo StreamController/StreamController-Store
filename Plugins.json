@@ -136,5 +136,11 @@
             "1.0.0-alpha": "d84510cdb5b2eb68f761c1dc5b9655d720d7cc72",
             "1.4.11-beta": "00268bdf16794a36e9cb042327ea23107226aaf4"
         }
+    },
+    {
+        "url": "https://github.com/jslay88/streamcontroller_helldivers_2",
+        "commits": {
+            "1.4.11-beta": "TBD"
+        }
     }
 ]
