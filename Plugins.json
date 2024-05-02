@@ -7,7 +7,8 @@
             "1.0.0-alpha": "7e524ad37d8382dfbf3f71aa9d851651c89ebc89",
             "1.1.1-alpha": "aaf96d09ecaa77f33af5c3642da73c32c06b16d5",
             "1.2.0-alpha": "51ece25f1b2afb7395331336379b0f2542667bdf",
-            "1.4.9-beta": "5a69211a38b16df0604abf72a406b63ac22eba53"
+            "1.4.9-beta": "5a69211a38b16df0604abf72a406b63ac22eba53",
+            "1.5.0-beta": "d173b1f707d5d255035acee6167bc0164da78219"
         }
     },
     {
@@ -19,7 +20,8 @@
             "1.1.1-alpha": "eac4b0f4daebad669ddddd333d1e1761f98b4152",
             "1.2.0-alpha": "c17a5a711887d37a78009847e6f069d9d096c956",
             "1.4.9-beta": "e8ad80016b4cd28fa06c38ef3d8ee3db1aef22c7",
-            "1.4.12-beta": "646cabbb6d1b33759efe6d460921814261f51344"
+            "1.4.12-beta": "646cabbb6d1b33759efe6d460921814261f51344",
+            "1.5.0-beta": "646cabbb6d1b33759efe6d460921814261f51344"
         }
     },
     {
@@ -30,7 +32,8 @@
             "1.1.1-alpha": "7546c7c697622f3fb3a80e661ed5b92769f25da5",
             "1.2.0-alpha": "00beea54ffce7119c93cf73b0246a3de660c2626",
             "1.4.9-beta": "d155dd5bad612968f9dc941581c99652c8bc9cd4",
-            "1.4.12-beta": "aad6815c92ac973f361146dc8721cbf5016c8731"
+            "1.4.12-beta": "aad6815c92ac973f361146dc8721cbf5016c8731",
+            "1.5.0-beta": "b1344ded0ae5c2776f4758a063e60ff7af8dad86"
         }
     },
     {
@@ -43,7 +46,8 @@
             "1.2.0-alpha": "bf70fa5917bc68f338cbefef970bf860eecc6feb",
             "1.4.8-beta": "2161ad1451244b6f1c1fc68f280561cdc33cfcf1",
             "1.4.9-beta": "35fd20bfd3eccb746aa40302261912ffef7aae0f",
-            "1.4.12-beta": "8571b71828bad8cebc4e7c582fb03531aa88312e"
+            "1.4.12-beta": "8571b71828bad8cebc4e7c582fb03531aa88312e",
+            "1.5.0-beta": "42d20d3dc50f6833ee5e325ccf46c570a5cc15a6"
         }
     },
     {
@@ -52,7 +56,8 @@
             "1.0.0-alpha": "4889f2e09d584b855cb2145d26c048e58feac881",
             "1.1.1-alpha": "85b6f7befcb799f602ccd05548e29eca0b0fc7b9",
             "1.2.0-alpha": "f09a2ec5f2da7cbc337657a0a62bfeac22408da2",
-            "1.4.9-beta": "f1dad4494169122b769b806dcd158ad60ad53a68"
+            "1.4.9-beta": "f1dad4494169122b769b806dcd158ad60ad53a68",
+            "1.5.0-beta": "d7995b64e61b1565a7f1783c6a845105d0d12494"
         }
     },
     {
@@ -63,7 +68,8 @@
             "1.2.0-alpha": "1d15b12d35f10b814a4fb72b8ad0e5adf8b82213",
             "1.4.8-beta": "8f60ed32de06001dd818c39362cb2d44eb695229",
             "1.4.9-beta": "4b95f16433d3167b60c0983a071bb56f2a0a22e2",
-            "1.4.12-beta": "7eef2d018526cc8e245ba6007f52599c25907e96"
+            "1.4.12-beta": "7eef2d018526cc8e245ba6007f52599c25907e96",
+            "1.5.0-beta": "7eef2d018526cc8e245ba6007f52599c25907e96"
         }
     },
     {
@@ -73,7 +79,8 @@
             "1.1.1-alpha": "19359f0d0dd1082a6b352aa77187ead808263b7c",
             "1.2.0-alpha": "90d0b9243e30a035b33311e2d75d8ce7a2cd9e82",
             "1.4.7-beta": "dcf2fdf2eaeaa3d437c7061f9ff0fdd36d136902",
-            "1.4.9-beta": "09e8e18588ba32836e274cd8f956df6906d4988e"
+            "1.4.9-beta": "09e8e18588ba32836e274cd8f956df6906d4988e",
+            "1.5.0-beta": "1bd4401caa161a150a43d36494ee7e06a8f7afef"
         }
     },
     {
@@ -82,7 +89,8 @@
             "1.0.0-alpha": "83e931aaab2846865387c0b39ff568549cdb1f54",
             "1.2.0-alpha": "0be5b7cf6ff12bc7175317eac82485f4834fa5b5",
             "1.4.9-beta": "918b459616cd75166acd90c63cc4c9272b7e60f4",
-            "1.4.12-beta": "17bd73e6b5ff32b1c1df5ef7b62c6026ff62d912"
+            "1.4.12-beta": "17bd73e6b5ff32b1c1df5ef7b62c6026ff62d912",
+            "1.5.0-beta": "17bd73e6b5ff32b1c1df5ef7b62c6026ff62d912"
         }
     },
     {
@@ -91,7 +99,8 @@
             "1.0.0-alpha": "f1327405a628fa828421cab1ad74bba300d1afac",
             "1.2.0-alpha": "c2ff8eb248ad3cb14c50e7dbf65c95b2e8404abb",
             "1.4.9-beta": "84dfbd95e0746d815ea6c807f21e3a9d1e4b11bc",
-            "1.4.12-beta": "35cd4d0e20b5c538052a7ca271fb0dd4e37537fa"
+            "1.4.12-beta": "35cd4d0e20b5c538052a7ca271fb0dd4e37537fa",
+            "1.5.0-beta": "35cd4d0e20b5c538052a7ca271fb0dd4e37537fa"
         }
     },
     {
@@ -100,7 +109,8 @@
             "1.1.1-alpha": "09d15a1682ef31d4ef62f649ed07729fb8611624",
             "1.2.0-alpha": "95b8a3d6fb341e299bc0acbafa0968ecc263ffae",
             "1.4.9-beta": "8b1e5b24b52ad1ccc5391d4205c77e490852891f",
-            "1.4.12-beta": "bb839d913845f925b017c86db88e613d2496e66c"
+            "1.4.12-beta": "bb839d913845f925b017c86db88e613d2496e66c",
+            "1.5.0-beta": "bb839d913845f925b017c86db88e613d2496e66c"
         }
     },
     {
@@ -108,7 +118,8 @@
         "commits": {
             "1.2.0-alpha": "fd33c84f306ef976524185509198252dc2fd954d",
             "1.4.9-beta": "bc3ae99726b0a462aa9a54cfa9d30f499451ffcc",
-            "1.4.12-beta": "77fa3ac5ad7c67f4489573ae6dd23a78e1dd3a19"
+            "1.4.12-beta": "77fa3ac5ad7c67f4489573ae6dd23a78e1dd3a19",
+            "1.5.0-beta": "77fa3ac5ad7c67f4489573ae6dd23a78e1dd3a19"
         }
     },
     {
@@ -116,7 +127,8 @@
         "commits": {
             "1.2.0-alpha": "e19f0365dad2cceed3e4983e0aa14b2228383a0d",
             "1.4.9-beta": "4e982a40207b0ab7c1307761cc0845484d25c8c4",
-            "1.4.12-beta": "116574ec11d490872cd0e89eda33ab25d5daaca0"
+            "1.4.12-beta": "116574ec11d490872cd0e89eda33ab25d5daaca0",
+            "1.5.0-beta": "116574ec11d490872cd0e89eda33ab25d5daaca0"
         }
     },
     {
@@ -124,7 +136,8 @@
         "commits": {
             "1.2.0-alpha": "31303ab5b2fd60a84c18e3575871035daafcc7cf",
             "1.4.9-beta": "09db0e3b90895c1f4f8dd22d47fc18563b411d62",
-            "1.4.12-beta": "e17db11e205c5cac3a71b9d8c4fe376aa8f74071"
+            "1.4.12-beta": "e17db11e205c5cac3a71b9d8c4fe376aa8f74071",
+            "1.5.0-beta": "e17db11e205c5cac3a71b9d8c4fe376aa8f74071"
         }
     },
     {
@@ -132,7 +145,8 @@
         "commits": {
             "1.4.8-beta": "abdd622c7ee1c0760f2aa806f66c245879db1b12",
             "1.4.9-beta": "a9fe92fb009da647e9b14098a67e271db30a29b3",
-            "1.4.12-beta": "b25f7b6e62332138b21da0c74bdf63068003f3e4"
+            "1.4.12-beta": "b25f7b6e62332138b21da0c74bdf63068003f3e4",
+            "1.5.0-beta": "b25f7b6e62332138b21da0c74bdf63068003f3e4"
         }
     },
     {
@@ -143,7 +157,7 @@
         }
     },
     {
-        "url":"https://github.com/G4PLS/AudioControl",
+        "url": "https://github.com/G4PLS/AudioControl",
         "commits": {
             "1.0.0-alpha": "d84510cdb5b2eb68f761c1dc5b9655d720d7cc72",
             "1.4.11-beta": "00268bdf16794a36e9cb042327ea23107226aaf4",
