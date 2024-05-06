@@ -170,5 +170,11 @@
         "commits": {
             "1.5.0-beta": "7d00eb1078805dc281d3681ff557b09ff132195e"
         }
+    },
+    {
+        "url": "https://github.com/gensyn/de_gensyn_HomeAssistantPlugin",
+        "commits": {
+            "1.5.0-beta": "f9e4d695e5d87d28fb678ecbb0a0ff67f8f92113"
+        }
     }
 ]
