@@ -58,6 +58,6 @@ def update_assets(json_path: str, app_version: str = None):
 
 APP_VERSION = "1.5.0-beta"
 
-# update_assets('Plugins.json', app_version=APP_VERSION)
+update_assets('Plugins.json', app_version=APP_VERSION)
 update_assets('Icons.json', app_version=APP_VERSION)
 update_assets('Wallpapers.json', app_version=APP_VERSION)
