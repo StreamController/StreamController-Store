@@ -5,5 +5,29 @@
             "1.1.1-alpha": "a079fabc31acb66a2b135e28a93c91af9e7cb215",
             "1.2.0-alpha": "22038caeae8eeec04f6fe1abb43b4d6304e56375"
         }
+    },
+    {
+        "url": "https://github.com/eumario/AuroraIcons",
+        "commits": {
+            "1.0.0-alpha": "42ab801f035443528add9b10b6db7472dd7de5f7"
+        }
+    },
+    {
+        "url": "https://github.com/eumario/ClarityIcons",
+        "commits": {
+            "1.0.0-alpha": "d624d70e95fa5560a9b91442ea0ef505430a8940"
+        }
+    },
+    {
+        "url": "https://github.com/eumario/NovaPixelArt",
+        "commits": {
+            "1.0.0-alpha": "81a022b10bee55aef22957e5caaba4672a9a51ba"
+        }
+    },
+    {
+        "url": "https://github.com/eumario/StreamOS",
+        "commits": {
+            "1.0.0-alpha": "2734a61584b58e4249febf5600a1f3a343825d7e"
+        }
     }
 ]
