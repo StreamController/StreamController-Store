@@ -179,5 +179,11 @@
             "1.5.0-beta": "d6bd505ab5894d64d7ad655572774539ad59cd90",
             "1.5.1-beta": "33dfef166aba5734052edb942eb7bf77489c0767"
         }
+    },
+    {
+        "url": "https://github.com/andrew-starosciak/SimpleCountdown",
+        "commits": {
+            "1.0.0": "e45c4e259c1f930a0430589324df9da88949d059"
+        }
     }
 ]
