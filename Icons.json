@@ -12,5 +12,11 @@
         "commits": {
             "1.5.0-beta.2": "d0ae8f6a4fe54ab4914d22ef628d2517babb5a5c"
         }
+    },
+    {
+        "url": "https://github.com/axolotlmaid/StreamController-FontAwesome-Icons",
+        "commits": {
+            "1.0.0": "a3f01197c6c87b52f9a03ec34ad58d45907b81b9"
+        }
     }
 ]
