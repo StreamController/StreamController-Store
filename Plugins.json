@@ -179,5 +179,11 @@
             "1.5.0-beta": "d6bd505ab5894d64d7ad655572774539ad59cd90",
             "1.5.1-beta": "33dfef166aba5734052edb942eb7bf77489c0767"
         }
+    },
+    {
+        "url": "https://github.com/ImDevinC/StreamControllerTwitchPlugin",
+        "commits": {
+          "1.0.0": "bbe1ca071fe0d7ca9e55ee1b386275b4d64ef1d0"
+        }
     }
 ]
