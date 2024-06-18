@@ -183,8 +183,7 @@
     {
         "url": "https://github.com/ImDevinC/StreamControllerTwitchPlugin",
         "commits": {
-          "1.0.0": "bbe1ca071fe0d7ca9e55ee1b386275b4d64ef1d0",
-          "1.0.1": "0382f094ede0fc4840c0c155b619c8d1e264f6b5"
+          "1.5.0-beta.4": "593e03bc635aec0a640bdae383b255d0172fc0a4"
         }
     }
 ]
