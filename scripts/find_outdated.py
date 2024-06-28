@@ -56,7 +56,7 @@ def update_assets(json_path: str, app_version: str = None):
     with open(json_path, 'w') as json_file:
         json.dump(data, json_file, indent=4)
 
-APP_VERSION = "1.5.0-beta"
+APP_VERSION = "1.5.0-beta.5"
 
 update_assets('Plugins.json', app_version=APP_VERSION)
 update_assets('Icons.json', app_version=APP_VERSION)
