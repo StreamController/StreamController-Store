@@ -21,7 +21,7 @@
             "1.2.0-alpha": "c17a5a711887d37a78009847e6f069d9d096c956",
             "1.4.9-beta": "e8ad80016b4cd28fa06c38ef3d8ee3db1aef22c7",
             "1.4.12-beta": "646cabbb6d1b33759efe6d460921814261f51344",
-            "1.5.0-beta": "f700d7793a98d35758bd43378878f5c69f6fbfb8"
+            "1.5.0-beta": "c35499cbe623d1094c78fa33f8f7927bf01d5aa9"
         }
     },
     {
@@ -47,7 +47,7 @@
             "1.4.8-beta": "2161ad1451244b6f1c1fc68f280561cdc33cfcf1",
             "1.4.9-beta": "35fd20bfd3eccb746aa40302261912ffef7aae0f",
             "1.4.12-beta": "8571b71828bad8cebc4e7c582fb03531aa88312e",
-            "1.5.0-beta": "d208a196bf97369b55df923ab8a5130961485481"
+            "1.5.0-beta": "d41fb1657ad4b33cb348f76074d2fad2861091c9"
         }
     },
     {
@@ -146,7 +146,7 @@
             "1.4.8-beta": "abdd622c7ee1c0760f2aa806f66c245879db1b12",
             "1.4.9-beta": "a9fe92fb009da647e9b14098a67e271db30a29b3",
             "1.4.12-beta": "b25f7b6e62332138b21da0c74bdf63068003f3e4",
-            "1.5.0-beta": "7facfcc3cf4af1049d5daf4c5095c6581601ed5c"
+            "1.5.0-beta": "c283c2c42ea6f3012c088f7a71b8e72d2f8c6dd1"
         }
     },
     {
@@ -154,7 +154,7 @@
         "commits": {
             "1.4.10-beta": "54b628020e0cf0a06e25bcc43b7ff767508f46e8",
             "1.4.12-beta": "1500d6d133995135dc960f61a137943f16fd2da5",
-            "1.5.0-beta": "1c8645ec1a30c86809d92f699af2209b34e53d00"
+            "1.5.0-beta": "4203a170a8b573d8e37cbacef069311671600091"
         }
     },
     {
@@ -163,13 +163,14 @@
             "1.0.0-alpha": "d84510cdb5b2eb68f761c1dc5b9655d720d7cc72",
             "1.4.11-beta": "6363cb291fae49b0994961faa5703d2ce0b53a6f",
             "1.5.0-beta.2": "7f56624dd1d3051ff2ca828a90515c2cddaed4b7",
-            "1.5.0-beta.3": "620974e30d6e2861246a3493a21a3040e26e5107"
+            "1.5.0-beta.3": "620974e30d6e2861246a3493a21a3040e26e5107",
+            "1.5.0-beta.4": "d4b6f3d39bc74504760d4cc366836b8ca6ad0e65"
         }
     },
     {
         "url": "https://github.com/jslay88/streamcontroller_helldivers_2",
         "commits": {
-            "1.5.0-beta": "7d00eb1078805dc281d3681ff557b09ff132195e"
+            "1.5.0-beta": "965b0981610187208d1f8b66beed05c0e2a7b849"
         }
     },
     {
