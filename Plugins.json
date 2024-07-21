@@ -203,5 +203,11 @@
           "1.5.0-beta.4": "f0ccf9a77f9ecf024978eeb0bcf53dea2dc084e5",
           "1.5.0-beta.5": "22d53051ee483ed4bf03ca7df47f3c5a8a1b6490"
         }
+    },
+    {
+        "url": "https://github.com/StreamController/Countdown",
+        "commits": {
+            "1.5.0-beta.5": "814353e4bd18e3d080aed7a1b3fac96501f7a4af"
+        }
     }
 ]
