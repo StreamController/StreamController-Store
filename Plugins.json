@@ -179,5 +179,11 @@
             "1.5.0-beta": "d6bd505ab5894d64d7ad655572774539ad59cd90",
             "1.5.1-beta": "33dfef166aba5734052edb942eb7bf77489c0767"
         }
+    },
+    {
+        "url": "https://github.com/SilentSwordmaiden/StreamController-XIVDeck-Plugin",
+        "commits": {
+            "1.0.0": "1eb5a387c178220a31cc69e1b2982d2da73620b0"
+        }
     }
 ]
