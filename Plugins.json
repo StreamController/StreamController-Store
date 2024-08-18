@@ -213,6 +213,7 @@
     {
         "url": "https://github.com/SilentSwordmaiden/StreamController-XIVDeck-Plugin",
         "commits": {
+            "1.0.1": "3f52851b935841f10fd158ef559f905d79ab01ed",
             "1.0.0": "1eb5a387c178220a31cc69e1b2982d2da73620b0"
         }
     }
