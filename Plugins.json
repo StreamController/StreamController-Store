@@ -215,5 +215,11 @@
         "commits": {
             "1.5.0-beta.5": "ccefae9878a0d0547d14aedbb2c0521d5573ec10"
         }
+    },
+    {
+        "url": "https://github.com/pniedzielski/StreamController-OBSLiveSplitOnePlugin",
+        "commits": {
+            "1.5.0-beta.5": "9cbb36ea809d47fb74049ed3eabd3b00fc2f000a"
+        }
     }
 ]
