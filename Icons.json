@@ -4,13 +4,20 @@
         "commits": {
             "1.1.1-alpha": "a079fabc31acb66a2b135e28a93c91af9e7cb215",
             "1.2.0-alpha": "22038caeae8eeec04f6fe1abb43b4d6304e56375",
-            "1.4.12-beta": "7b61f21b8fa4b3ff9e978850e60be4f9cbd9b267"
+            "1.4.12-beta": "7b61f21b8fa4b3ff9e978850e60be4f9cbd9b267",
+            "1.5.1-beta": "61eff8c76f21347f215032800e65f66d536e71d9"
         }
     },
     {
         "url": "https://github.com/G4PLS/VolumeIcons",
         "commits": {
             "1.5.0-beta.2": "d0ae8f6a4fe54ab4914d22ef628d2517babb5a5c"
+        }
+    },
+    {
+        "url": "https://github.com/axolotlmaid/StreamController-FontAwesome-Icons",
+        "commits": {
+            "1.0.0": "732d9249a7c3ea1652c2ced38b40aa204448ba85"
         }
     }
 ]
