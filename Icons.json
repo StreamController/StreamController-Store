@@ -19,5 +19,11 @@
         "commits": {
             "1.0.0": "732d9249a7c3ea1652c2ced38b40aa204448ba85"
         }
+    },
+    {
+        "url": "https://github.com/fishgrind/tabler-streamcontroller-icons",
+        "commits": {
+            "1.0.0": "d8a5724f64a88c400e15f990b208ca5ace1a4a7e"
+        }
     }
 ]
