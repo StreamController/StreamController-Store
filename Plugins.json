@@ -221,5 +221,11 @@
         "commits": {
             "1.5.0-beta.5": "9cbb36ea809d47fb74049ed3eabd3b00fc2f000a"
         }
+    },
+    {
+        "url": "https://github.com/ImDevinC/StreamControllerDiscordPlugin",
+        "commits": {
+          "1.5.0-beta.7": "b199719d775a2dcf051e027dcec7b8fe14e9b2ed"
+        }
     }
 ]
