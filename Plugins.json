@@ -201,9 +201,9 @@
     {
         "url": "https://github.com/ImDevinC/StreamControllerTwitchPlugin",
         "commits": {
-          "1.5.0-beta.4": "f0ccf9a77f9ecf024978eeb0bcf53dea2dc084e5",
-          "1.5.0-beta.5": "22d53051ee483ed4bf03ca7df47f3c5a8a1b6490",
-          "1.5.0-beta.6": "5d821347e767fe0537f92ff2831231afdfe1236a"
+            "1.5.0-beta.4": "f0ccf9a77f9ecf024978eeb0bcf53dea2dc084e5",
+            "1.5.0-beta.5": "22d53051ee483ed4bf03ca7df47f3c5a8a1b6490",
+            "1.5.0-beta.6": "5d821347e767fe0537f92ff2831231afdfe1236a"
         }
     },
     {
@@ -227,22 +227,19 @@
     {
         "url": "https://github.com/ImDevinC/StreamControllerDiscordPlugin",
         "commits": {
-          "1.5.0-beta.6": "1985fc2b3c8fb389a260a2d6ff50b8b2ebb05c3c"
+            "1.5.0-beta.6": "1985fc2b3c8fb389a260a2d6ff50b8b2ebb05c3c"
         }
     },
     {
         "url": "https://github.com/dehnhardt/StreamController-MixbusPlugin",
         "commits": {
-          "0.9.1": "c451f88f7e919601080a8177ea632143f5301203"
+            "1.5.0-beta.7": "c451f88f7e919601080a8177ea632143f5301203"
         }
     },
     {
         "url": "https://github.com/cozybuild/StreamControllerElgatoKeyLight",
         "commits": {
-            "0.1.0": "583d74c6c409d1716966c55b4a6d64589c6caa9c",
-	    "0.1.1": "80aa64e901d966dc8c51d6e669d4bd549a8b92b4",
-	    "0.1.2": "2a823090110aa6993a8b12f85289b0c8b618944c",
-	    "0.1.3": "ad90b5690151ebd7450a0e88b81f9af6a78416ef"
+            "1.5.0-beta.5": "ad90b5690151ebd7450a0e88b81f9af6a78416ef"
         }
     }
 ]
