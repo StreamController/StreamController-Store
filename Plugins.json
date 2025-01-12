@@ -239,9 +239,10 @@
     {
         "url": "https://github.com/cozybuild/StreamControllerElgatoKeyLight",
         "commits": {
-	    "0.1.2": "2a823090110aa6993a8b12f85289b0c8b618944c",
+            "0.1.0": "583d74c6c409d1716966c55b4a6d64589c6caa9c",
 	    "0.1.1": "80aa64e901d966dc8c51d6e669d4bd549a8b92b4",
-            "0.1.0": "583d74c6c409d1716966c55b4a6d64589c6caa9c"
+	    "0.1.2": "2a823090110aa6993a8b12f85289b0c8b618944c",
+	    "0.1.3": "ad90b5690151ebd7450a0e88b81f9af6a78416ef"
         }
     }
 ]
