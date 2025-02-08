@@ -243,7 +243,7 @@
         }
     },
     {
-        "url": "https://github.com/eumario/StreamController_WebSockets",
+        "url": "https://github.com/eumario/StreamController_WebSocket",
         "commits": {
             "1.5.0-beta.7": "d5539465a9b4b472622dcba6bcdf3292003f9800"
         }
