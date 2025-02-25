@@ -250,6 +250,12 @@
         }
     },
     {
+        "url": "https://github.com/eumario/StreamController_MangoHud",
+        "commits": {
+            "1.5.0-beta.7": "8f5187693ba8d144fa26ed25004f7839ddee1a23"
+        }
+    },
+    {
         "url": "https://github.com/Kekemui/VeadoSC",
         "commits": {
             "1.5.0-beta.7": "904d9987e697ba95c0a86dbecd7fe33948f873f5"
