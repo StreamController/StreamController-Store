@@ -260,5 +260,11 @@
         "commits": {
             "1.5.0-beta.7": "904d9987e697ba95c0a86dbecd7fe33948f873f5"
         }
+    },
+    {
+        "url": "https://github.com/UlvFoerlev/EasySound",
+        "commits": {
+            "1.5.0-beta": "e04ab8a6df24047f6eb96f9a8a806a6d08455990"
+        }
     }
 ]
