@@ -25,5 +25,11 @@
         "commits": {
             "1.0.0": "88eff87418a05844e431f91c21b1e68a92c2834c"
         }
+    },
+    {
+        "url": "https://github.com/MyrikLD/streamcontroller_simple_icons",
+        "commits": {
+            "1.0.0": "f38a78fa393167e012e5908fefee705fe35d10ec"
+        }
     }
 ]
