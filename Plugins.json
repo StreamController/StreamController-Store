@@ -263,5 +263,11 @@
         "commits": {
             "1.5.0-beta.7": "0791541cc0ff7ec2d3a86d85d494d3d83aab4d60"
         }
+    },
+    {
+        "url": "https://github.com/StreamController/QEMUPlugin",
+        "commits": {
+            "1.5.0-beta.8": "738fe43b2a02d5902f815bec042de59dc199e949"
+        }
     }
 ]
