@@ -297,5 +297,11 @@
         "commits": {
             "1.5.0-beta.10": "a62d8164e4052cc08e2569734f5b1943b60356d5"
         }
+    },
+    {
+        "url": "https://github.com/parkour86/DaysUntil",
+            "commits": {
+              "1.1.1-alpha": "ab5a62b7a977a33570b1880436c488d32ece1d23"
+        }
     }
 ]
