@@ -306,9 +306,17 @@
     },
     {
         "url": "https://github.com/parkour86/DaysUntil",
-            "commits": {
+        "commits": {
               "1.1.2-alpha": "f5eaa358ece1b61d1f831c940bf04f06a9d9fbf5"
        }
+    },
+    {
+        "url": "https://github.com/UlvFoerlev/EasySound",
+        "commits": {
+            "1.0.0-beta": "0495b25dfea99203f5f1eefd4772e1f5bf3a9215",
+            "1.5.0-beta": "0495b25dfea99203f5f1eefd4772e1f5bf3a9215",
+            "1.5.0-beta.11": "0495b25dfea99203f5f1eefd4772e1f5bf3a9215"
+        }
     },
     {
         "url": "https://github.com/Tiebe/JetbrainsPlugin",
