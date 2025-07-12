@@ -302,18 +302,32 @@
         "url": "https://github.com/Thiritin/kimai-streamcontroller-action",
         "commits": {
             "1.5.0-beta.10": "21d2bc3fd0c3adedf47f0db32098a612272149b4"
-        } 
+        }
     },
     {
         "url": "https://github.com/parkour86/DaysUntil",
-            "commits": {
-              "1.1.2-alpha": "f5eaa358ece1b61d1f831c940bf04f06a9d9fbf5"
+        "commits": {
+            "1.1.2-alpha": "f5eaa358ece1b61d1f831c940bf04f06a9d9fbf5"
        }
     },
     {
+        "url": "https://github.com/UlvFoerlev/EasySound",
+        "commits": {
+            "1.0.0-beta": "0495b25dfea99203f5f1eefd4772e1f5bf3a9215",
+            "1.5.0-beta": "0495b25dfea99203f5f1eefd4772e1f5bf3a9215",
+            "1.5.0-beta.11": "0495b25dfea99203f5f1eefd4772e1f5bf3a9215"
+        }
+    },
+    {
+        "url": "https://github.com/Tiebe/JetbrainsPlugin",
+        "commits": {
+            "1.5.0-beta.11": "805bc64ed1d5263518d88c32be53529bb0171c8b"
+        }
+    },
+    {
         "url": "https://github.com/parkour86/GithubPlugin",
-            "commits": {
-              "1.1.1-alpha": "0b7a330ca0957893fb227a4e37d4f558857f0fee"
+        "commits": {
+            "1.1.1-alpha": "c056411aa056652e0d936aa7000a211e32713bef"
         }
     }
 ]
