@@ -277,7 +277,7 @@
     {
         "url": "https://github.com/ReneLu/SpotifyControl",
         "commits": {
-            "1.5.0-beta.10": "dd2e813ca425c361b547334576ff54d6ba6c249b"
+            "1.5.0-beta.11": "cdc46acce611c3301b5999258e08626503267f4a"
         }
     },
     {
@@ -296,6 +296,38 @@
         "url": "https://github.com/buggex/StreamController-SoundboardPlugin",
         "commits": {
             "1.5.0-beta.10": "a62d8164e4052cc08e2569734f5b1943b60356d5"
+        }
+    },
+    {
+        "url": "https://github.com/Thiritin/kimai-streamcontroller-action",
+        "commits": {
+            "1.5.0-beta.10": "21d2bc3fd0c3adedf47f0db32098a612272149b4"
+        }
+    },
+    {
+        "url": "https://github.com/parkour86/DaysUntil",
+        "commits": {
+            "1.1.2-alpha": "f5eaa358ece1b61d1f831c940bf04f06a9d9fbf5"
+       }
+    },
+    {
+        "url": "https://github.com/UlvFoerlev/EasySound",
+        "commits": {
+            "1.0.0-beta": "0495b25dfea99203f5f1eefd4772e1f5bf3a9215",
+            "1.5.0-beta": "0495b25dfea99203f5f1eefd4772e1f5bf3a9215",
+            "1.5.0-beta.11": "0495b25dfea99203f5f1eefd4772e1f5bf3a9215"
+        }
+    },
+    {
+        "url": "https://github.com/Tiebe/JetbrainsPlugin",
+        "commits": {
+            "1.5.0-beta.11": "805bc64ed1d5263518d88c32be53529bb0171c8b"
+        }
+    },
+    {
+        "url": "https://github.com/parkour86/GithubPlugin",
+        "commits": {
+            "1.1.1-alpha": "dc36bdab1d47e140d3c70c0d6fa29c9283485d21"
         }
     }
 ]
