@@ -1,339 +1,339 @@
 [
-    {
-        "url": "https://github.com/StreamController/MediaPlugin",
-        "commits": {
-            "0.1.0-alpha": "fa8a1348e9c7b40e68c5467d0b5f14a01edb8d6d",
-            "0.1.1-alpha": "36ff8adb99bfd4c5b679f3e37499c107e5f8f09f",
-            "1.0.0-alpha": "7e524ad37d8382dfbf3f71aa9d851651c89ebc89",
-            "1.1.1-alpha": "aaf96d09ecaa77f33af5c3642da73c32c06b16d5",
-            "1.2.0-alpha": "51ece25f1b2afb7395331336379b0f2542667bdf",
-            "1.4.9-beta": "0e5eeb4ec488d3dd31b4005b9827271c543e53b6",
-            "1.5.0-beta.5": "3c8d8a3928e4284976d405431a7b923d97c60d06"
-        }
-    },
-    {
-        "url": "https://github.com/StreamController/OBSPlugin",
-        "commits": {
-            "0.1.0-alpha": "8ce92bb998180a26263099af5917ec3f300d2f1d",
-            "0.1.1-alpha": "e0823734c9dcb958674714613207234f79cb2030",
-            "1.0.0-alpha": "c5271e732c8ee10c2fb3706c5bd6ace562d51415",
-            "1.1.1-alpha": "eac4b0f4daebad669ddddd333d1e1761f98b4152",
-            "1.2.0-alpha": "c17a5a711887d37a78009847e6f069d9d096c956",
-            "1.4.9-beta": "e8ad80016b4cd28fa06c38ef3d8ee3db1aef22c7",
-            "1.4.12-beta": "646cabbb6d1b33759efe6d460921814261f51344",
-            "1.5.0-beta": "c35499cbe623d1094c78fa33f8f7927bf01d5aa9",
-            "1.5.0-beta.5": "bd2cfc343ed55f53612d9ccc83f0a8fbe91e779a"
-        }
-    },
-    {
-        "url": "https://github.com/StreamController/DeckPlugin",
-        "commits": {
-            "0.1.1-alpha": "935cda112ab564be98497d5c9e544def30c573d9",
-            "1.0.0-alpha": "f07bb73bd01d7cf584713ee3d04e529ba575488c",
-            "1.1.1-alpha": "7546c7c697622f3fb3a80e661ed5b92769f25da5",
-            "1.2.0-alpha": "00beea54ffce7119c93cf73b0246a3de660c2626",
-            "1.4.9-beta": "d155dd5bad612968f9dc941581c99652c8bc9cd4",
-            "1.4.12-beta": "aad6815c92ac973f361146dc8721cbf5016c8731",
-            "1.5.0-beta": "060a01556e54e8d739300ab82097c93971a44d1f",
-            "1.5.0-beta.5": "dd053be1d541034d53b7bebf87125979fd7cdc0c"
-        }
-    },
-    {
-        "url": "https://github.com/StreamController/OSPlugin",
-        "commits": {
-            "0.1.0-alpha": "a1681b8ecfa2d95d034586b2744cb32fc94f7893",
-            "0.1.1-alpha": "ea84116d9bdfc24b2b332865ee6579402a07567a",
-            "1.0.0-alpha": "f2572785493da0a4d72d0820c95432e07eaf2c0f",
-            "1.1.1-alpha": "85d530e4c5b90dd58ca9ec9f77140a06d507365e",
-            "1.2.0-alpha": "bf70fa5917bc68f338cbefef970bf860eecc6feb",
-            "1.4.8-beta": "2161ad1451244b6f1c1fc68f280561cdc33cfcf1",
-            "1.4.9-beta": "35fd20bfd3eccb746aa40302261912ffef7aae0f",
-            "1.4.12-beta": "8571b71828bad8cebc4e7c582fb03531aa88312e",
-            "1.5.0-beta": "d41fb1657ad4b33cb348f76074d2fad2861091c9",
-            "1.5.0-beta.5": "c9af81969e99a1834832f051a68f091ee501e540",
-            "1.5.0-beta.7": "0056970ceed3707fe902c6cebe748b6eaa5b8c7b"
-        }
-    },
-    {
-        "url": "https://github.com/StreamController/Requests",
-        "commits": {
-            "1.0.0-alpha": "4889f2e09d584b855cb2145d26c048e58feac881",
-            "1.1.1-alpha": "85b6f7befcb799f602ccd05548e29eca0b0fc7b9",
-            "1.2.0-alpha": "f09a2ec5f2da7cbc337657a0a62bfeac22408da2",
-            "1.4.9-beta": "f1dad4494169122b769b806dcd158ad60ad53a68",
-            "1.5.0-beta": "d2832905b22fc38ead957c4ebc2ccd917eeff603",
-            "1.5.0-beta.5": "bfe1fa16fa3e8a2162774f6771ed1ec218af392b"
-        }
-    },
-    {
-        "url": "https://github.com/StreamController/Clocks",
-        "commits": {
-            "1.0.0-alpha": "f54ca6c1614615cb5fe3d6fba88bdf17f6c765c2",
-            "1.1.1-alpha": "07f62f0d8dd6d902840410696e4e38fdc32021ee",
-            "1.2.0-alpha": "1d15b12d35f10b814a4fb72b8ad0e5adf8b82213",
-            "1.4.8-beta": "8f60ed32de06001dd818c39362cb2d44eb695229",
-            "1.4.9-beta": "4b95f16433d3167b60c0983a071bb56f2a0a22e2",
-            "1.4.12-beta": "7eef2d018526cc8e245ba6007f52599c25907e96",
-            "1.5.0-beta": "24a9a99cb977ed89cf1239a5c1269ec66a9b8c9c",
-            "1.5.0-beta.5": "382410fe55646e76420d5eea7598e405e69d7f3e"
-        }
-    },
-    {
-        "url": "https://github.com/StreamController/Weather",
-        "commits": {
-            "1.0.0-alpha": "d691ea8bc9846d3b5109e5c9cd28ed870c3061e6",
-            "1.1.1-alpha": "19359f0d0dd1082a6b352aa77187ead808263b7c",
-            "1.2.0-alpha": "90d0b9243e30a035b33311e2d75d8ce7a2cd9e82",
-            "1.4.7-beta": "dcf2fdf2eaeaa3d437c7061f9ff0fdd36d136902",
-            "1.4.9-beta": "09e8e18588ba32836e274cd8f956df6906d4988e",
-            "1.5.0-beta": "0f023a48d29703330c45ed12cec1499759358020",
-            "1.5.0-beta.5": "6d8ad12803c331042b221dcc0ae080af5ed8ef90"
-        }
-    },
-    {
-        "url": "https://github.com/StreamController/Counter",
-        "commits": {
-            "1.0.0-alpha": "83e931aaab2846865387c0b39ff568549cdb1f54",
-            "1.2.0-alpha": "0be5b7cf6ff12bc7175317eac82485f4834fa5b5",
-            "1.4.9-beta": "918b459616cd75166acd90c63cc4c9272b7e60f4",
-            "1.4.12-beta": "17bd73e6b5ff32b1c1df5ef7b62c6026ff62d912",
-            "1.5.0-beta": "b1782f5b83bbf74a0cac7f90e1fe639e21c2c16f",
-            "1.5.0-beta.5": "685b21c92ed799e67d385f7e16d211aef3d952d9"
-        }
-    },
-    {
-        "url": "https://github.com/StreamController/VolumeMixer",
-        "commits": {
-            "1.0.0-alpha": "f1327405a628fa828421cab1ad74bba300d1afac",
-            "1.2.0-alpha": "c2ff8eb248ad3cb14c50e7dbf65c95b2e8404abb",
-            "1.4.9-beta": "84dfbd95e0746d815ea6c807f21e3a9d1e4b11bc",
-            "1.4.12-beta": "35cd4d0e20b5c538052a7ca271fb0dd4e37537fa",
-            "1.5.0-beta": "65c4c7d0f6909146c710736fa6202e1ea8f2661b",
-            "1.5.0-beta.5": "d86db67804d59378562d93a8171280db756c2000"
-        }
-    },
-    {
-        "url": "https://github.com/StreamController/Speedtest",
-        "commits": {
-            "1.1.1-alpha": "09d15a1682ef31d4ef62f649ed07729fb8611624",
-            "1.2.0-alpha": "95b8a3d6fb341e299bc0acbafa0968ecc263ffae",
-            "1.4.9-beta": "8b1e5b24b52ad1ccc5391d4205c77e490852891f",
-            "1.4.12-beta": "bb839d913845f925b017c86db88e613d2496e66c",
-            "1.5.0-beta": "6a2c640430e5df050b0250c41c98891b46786823",
-            "1.5.0-beta.5": "2d7794259903f4c85827c2c0a2b6cb044ace3efa"
-        }
-    },
-    {
-        "url": "https://github.com/StreamController/GnomeWindowCalls",
-        "commits": {
-            "1.2.0-alpha": "fd33c84f306ef976524185509198252dc2fd954d",
-            "1.4.9-beta": "bc3ae99726b0a462aa9a54cfa9d30f499451ffcc",
-            "1.4.12-beta": "77fa3ac5ad7c67f4489573ae6dd23a78e1dd3a19",
-            "1.5.0-beta": "2d422ab1bc7c150789ead46b8004709a0350a9c6",
-            "1.5.0-beta.5": "a8846468adbc2d3f27775da63b92560c07d85155"
-        }
-    },
-    {
-        "url": "https://github.com/StreamController/MicMute",
-        "commits": {
-            "1.2.0-alpha": "e19f0365dad2cceed3e4983e0aa14b2228383a0d",
-            "1.4.9-beta": "4e982a40207b0ab7c1307761cc0845484d25c8c4",
-            "1.4.12-beta": "116574ec11d490872cd0e89eda33ab25d5daaca0",
-            "1.5.0-beta": "7e686110855653582288b45c20a865ed48eb8eb3",
-            "1.5.0-beta.5": "c78789dc79f4eafd23584e7a4cab83436fd132de"
-        }
-    },
-    {
-        "url": "https://github.com/StreamController/Battery",
-        "commits": {
-            "1.2.0-alpha": "31303ab5b2fd60a84c18e3575871035daafcc7cf",
-            "1.4.9-beta": "09db0e3b90895c1f4f8dd22d47fc18563b411d62",
-            "1.4.12-beta": "e17db11e205c5cac3a71b9d8c4fe376aa8f74071",
-            "1.5.0-beta": "236102c4b90db448ff04442bf75d46facbaab941",
-            "1.5.0-beta.5": "e6e8ed12c24780f7c735f45f5c1c3de314725192"
-        }
-    },
-    {
-        "url": "https://github.com/StreamController/AudioSwitcher",
-        "commits": {
-            "1.4.8-beta": "abdd622c7ee1c0760f2aa806f66c245879db1b12",
-            "1.4.9-beta": "a9fe92fb009da647e9b14098a67e271db30a29b3",
-            "1.4.12-beta": "b25f7b6e62332138b21da0c74bdf63068003f3e4",
-            "1.5.0-beta": "fb1afdf2e7803977b9f594e3f14fda1dfac2fdb2",
-            "1.5.0-beta.5": "81b29136a099c08c1618c0e1cf1bbc4a84841a53"
-        }
-    },
-    {
-        "url": "https://github.com/StreamController/Pi-hole",
-        "commits": {
-            "1.4.10-beta": "54b628020e0cf0a06e25bcc43b7ff767508f46e8",
-            "1.4.12-beta": "1500d6d133995135dc960f61a137943f16fd2da5",
-            "1.5.0-beta": "4203a170a8b573d8e37cbacef069311671600091",
-            "1.5.0-beta.5": "8f51549c6acde3c572f53151805fd5e4057d0bb8"
-        }
-    },
-    {
-        "url": "https://github.com/G4PLS/AudioControl",
-        "commits": {
-            "1.0.0-alpha": "d84510cdb5b2eb68f761c1dc5b9655d720d7cc72",
-            "1.4.11-beta": "6363cb291fae49b0994961faa5703d2ce0b53a6f",
-            "1.5.0-beta.2": "7f56624dd1d3051ff2ca828a90515c2cddaed4b7",
-            "1.5.0-beta.3": "620974e30d6e2861246a3493a21a3040e26e5107",
-            "1.5.0-beta.4": "d4b6f3d39bc74504760d4cc366836b8ca6ad0e65",
-            "1.5.0-beta.5": "d0581796a4a07692b07a2d2e415dcf2e186a0c9b",
-            "1.5.0-beta.6": "8a3876641ae4e42ec16bbdb760fc996b1ce27433",
-            "1.5.0-beta.7": "fa392249012c37cf583789d56ac0ca0dbfaa6535",
-            "1.5.0-beta.11": "171add294aac52ffaf4901ea41d3d7adbbe79e78"
-        }
-    },
-    {
-        "url": "https://github.com/jslay88/streamcontroller_helldivers_2",
-        "commits": {
-            "1.5.0-beta.5": "c18c87df83c830394c1ebd6967581080ff0bc462"
-        }
-    },
-    {
-        "url": "https://github.com/gensyn/de_gensyn_HomeAssistantPlugin",
-        "commits": {
-            "1.5.0-beta.3": "d6bd505ab5894d64d7ad655572774539ad59cd90",
-            "1.5.0-beta.4": "33dfef166aba5734052edb942eb7bf77489c0767",
-            "1.5.0-beta.5": "24213c6477ff7887c9bd82cade7b5cc471042043",
-            "1.5.0-beta.7": "6e3e2d6cbe076f14013a72ddd0b95ba1e94ddac4",
-            "1.5.0-beta.8": "2309be93af18d615f6756aafd132c0d16ea31969",
-            "1.5.0-beta.9": "8db11bbb005a32193c58c79e7d7ad5df5f228092"
-        }
-    },
-    {
-        "url": "https://github.com/ImDevinC/StreamControllerTwitchPlugin",
-        "commits": {
-            "1.5.0-beta.4": "f0ccf9a77f9ecf024978eeb0bcf53dea2dc084e5",
-            "1.5.0-beta.5": "22d53051ee483ed4bf03ca7df47f3c5a8a1b6490",
-            "1.5.0-beta.6": "b43f05f0e2747ff9365bc4b08f1080d5221463f3",
-            "1.5.0-beta.9": "ded3382d3a16582aa5cfc1a278bd8fb1098a1f46"
-        }
-    },
-    {
-        "url": "https://github.com/StreamController/Countdown",
-        "commits": {
-            "1.5.0-beta.5": "37e5936171fb836fa32a79b69c9a610db7a43663"
-        }
-    },
-    {
-        "url": "https://github.com/SilentSwordmaiden/StreamController-XIVDeck-Plugin",
-        "commits": {
-            "1.5.0-beta.5": "ccefae9878a0d0547d14aedbb2c0521d5573ec10"
-        }
-    },
-    {
-        "url": "https://github.com/pniedzielski/StreamController-OBSLiveSplitOnePlugin",
-        "commits": {
-            "1.5.0-beta.5": "9cbb36ea809d47fb74049ed3eabd3b00fc2f000a"
-        }
-    },
-    {
-        "url": "https://github.com/ImDevinC/StreamControllerDiscordPlugin",
-        "commits": {
-            "1.5.0-beta.6": "1985fc2b3c8fb389a260a2d6ff50b8b2ebb05c3c",
-            "1.5.0-beta.8": "0b79f6580242a30a64c62ba2d3b7e073757d3afc",
-            "1.5.0-beta.9": "59d3c78f1f4c5204bf3d96e2935543d10934043e"
-        }
-    },
-    {
-        "url": "https://github.com/dehnhardt/StreamController-MixbusPlugin",
-        "commits": {
-            "1.5.0-beta.7": "c451f88f7e919601080a8177ea632143f5301203"
-        }
-    },
-    {
-        "url": "https://github.com/cozybuild/StreamControllerElgatoKeyLight",
-        "commits": {
-            "1.5.0-beta.5": "1ea07125f182edced672671d31ac7de1dbec8c8e"
-        }
-    },
-    {
-        "url": "https://github.com/eumario/StreamController_WebSocket",
-        "commits": {
-            "1.5.0-beta.7": "d5539465a9b4b472622dcba6bcdf3292003f9800"
-        }
-    },
-    {
-        "url": "https://github.com/eumario/StreamController_MangoHud",
-        "commits": {
-            "1.5.0-beta.7": "8f5187693ba8d144fa26ed25004f7839ddee1a23"
-        }
-    },
-    {
-        "url": "https://github.com/Kekemui/VeadoSC",
-        "commits": {
-            "1.5.0-beta.7": "0791541cc0ff7ec2d3a86d85d494d3d83aab4d60"
-        }
-    },
-    {
-        "url": "https://github.com/StreamController/QEMUPlugin",
-        "commits": {
-            "1.5.0-beta.8": "738fe43b2a02d5902f815bec042de59dc199e949"
-        }
-    },
-    {
-        "url": "https://github.com/ReneLu/SpotifyControl",
-        "commits": {
-            "1.5.0-beta.11": "cdc46acce611c3301b5999258e08626503267f4a"
-        }
-    },
-    {
-        "url": "https://github.com/StreamController/ControllerPlugin",
-        "commits": {
-            "1.5.0-beta.10": "61c3b02fb816366a281b71d527e9215e0d213335"
-        }
-    },
-    {
-        "url": "https://github.com/bamarc/SpotifyForStreamController",
-        "commits": {
-            "1.5.0-beta.10": "5306137e07a6f6f50723f9a8ef95a419e5d4d857"
-        }
-    },
-    {
-        "url": "https://github.com/buggex/StreamController-SoundboardPlugin",
-        "commits": {
-            "1.5.0-beta.10": "a62d8164e4052cc08e2569734f5b1943b60356d5"
-        }
-    },
-    {
-        "url": "https://github.com/Thiritin/kimai-streamcontroller-action",
-        "commits": {
-            "1.5.0-beta.10": "21d2bc3fd0c3adedf47f0db32098a612272149b4"
-        }
-    },
-    {
-        "url": "https://github.com/parkour86/DaysUntil",
-        "commits": {
-            "1.1.2-alpha": "f5eaa358ece1b61d1f831c940bf04f06a9d9fbf5"
-       }
-    },
-    {
-        "url": "https://github.com/UlvFoerlev/EasySound",
-        "commits": {
-            "1.0.0-beta": "0495b25dfea99203f5f1eefd4772e1f5bf3a9215",
-            "1.5.0-beta": "0495b25dfea99203f5f1eefd4772e1f5bf3a9215",
-            "1.5.0-beta.11": "0495b25dfea99203f5f1eefd4772e1f5bf3a9215"
-        }
-    },
-    {
-        "url": "https://github.com/Tiebe/JetbrainsPlugin",
-        "commits": {
-            "1.5.0-beta.11": "805bc64ed1d5263518d88c32be53529bb0171c8b"
-        }
-    },
-    {
-        "url": "https://github.com/parkour86/GithubPlugin",
-        "commits": {
-            "1.1.1-alpha": "dc36bdab1d47e140d3c70c0d6fa29c9283485d21"
-        }
-    },
-    {
-        "url": "https://github.com/nekename/streamcontroller-opendeck",
-        "commits": {
-            "1.5.0-beta.11": "2ebdac0e1da222e99013bcef9e836998b5b04955"
-        }
+  {
+    "url": "https://github.com/StreamController/MediaPlugin",
+    "commits": {
+      "0.1.0-alpha": "fa8a1348e9c7b40e68c5467d0b5f14a01edb8d6d",
+      "0.1.1-alpha": "36ff8adb99bfd4c5b679f3e37499c107e5f8f09f",
+      "1.0.0-alpha": "7e524ad37d8382dfbf3f71aa9d851651c89ebc89",
+      "1.1.1-alpha": "aaf96d09ecaa77f33af5c3642da73c32c06b16d5",
+      "1.2.0-alpha": "51ece25f1b2afb7395331336379b0f2542667bdf",
+      "1.4.9-beta": "0e5eeb4ec488d3dd31b4005b9827271c543e53b6",
+      "1.5.0-beta.5": "3c8d8a3928e4284976d405431a7b923d97c60d06"
     }
+  },
+  {
+    "url": "https://github.com/StreamController/OBSPlugin",
+    "commits": {
+      "0.1.0-alpha": "8ce92bb998180a26263099af5917ec3f300d2f1d",
+      "0.1.1-alpha": "e0823734c9dcb958674714613207234f79cb2030",
+      "1.0.0-alpha": "c5271e732c8ee10c2fb3706c5bd6ace562d51415",
+      "1.1.1-alpha": "eac4b0f4daebad669ddddd333d1e1761f98b4152",
+      "1.2.0-alpha": "c17a5a711887d37a78009847e6f069d9d096c956",
+      "1.4.9-beta": "e8ad80016b4cd28fa06c38ef3d8ee3db1aef22c7",
+      "1.4.12-beta": "646cabbb6d1b33759efe6d460921814261f51344",
+      "1.5.0-beta": "c35499cbe623d1094c78fa33f8f7927bf01d5aa9",
+      "1.5.0-beta.5": "bd2cfc343ed55f53612d9ccc83f0a8fbe91e779a"
+    }
+  },
+  {
+    "url": "https://github.com/StreamController/DeckPlugin",
+    "commits": {
+      "0.1.1-alpha": "935cda112ab564be98497d5c9e544def30c573d9",
+      "1.0.0-alpha": "f07bb73bd01d7cf584713ee3d04e529ba575488c",
+      "1.1.1-alpha": "7546c7c697622f3fb3a80e661ed5b92769f25da5",
+      "1.2.0-alpha": "00beea54ffce7119c93cf73b0246a3de660c2626",
+      "1.4.9-beta": "d155dd5bad612968f9dc941581c99652c8bc9cd4",
+      "1.4.12-beta": "aad6815c92ac973f361146dc8721cbf5016c8731",
+      "1.5.0-beta": "060a01556e54e8d739300ab82097c93971a44d1f",
+      "1.5.0-beta.5": "dd053be1d541034d53b7bebf87125979fd7cdc0c"
+    }
+  },
+  {
+    "url": "https://github.com/StreamController/OSPlugin",
+    "commits": {
+      "0.1.0-alpha": "a1681b8ecfa2d95d034586b2744cb32fc94f7893",
+      "0.1.1-alpha": "ea84116d9bdfc24b2b332865ee6579402a07567a",
+      "1.0.0-alpha": "f2572785493da0a4d72d0820c95432e07eaf2c0f",
+      "1.1.1-alpha": "85d530e4c5b90dd58ca9ec9f77140a06d507365e",
+      "1.2.0-alpha": "bf70fa5917bc68f338cbefef970bf860eecc6feb",
+      "1.4.8-beta": "2161ad1451244b6f1c1fc68f280561cdc33cfcf1",
+      "1.4.9-beta": "35fd20bfd3eccb746aa40302261912ffef7aae0f",
+      "1.4.12-beta": "8571b71828bad8cebc4e7c582fb03531aa88312e",
+      "1.5.0-beta": "d41fb1657ad4b33cb348f76074d2fad2861091c9",
+      "1.5.0-beta.5": "c9af81969e99a1834832f051a68f091ee501e540",
+      "1.5.0-beta.7": "0056970ceed3707fe902c6cebe748b6eaa5b8c7b"
+    }
+  },
+  {
+    "url": "https://github.com/StreamController/Requests",
+    "commits": {
+      "1.0.0-alpha": "4889f2e09d584b855cb2145d26c048e58feac881",
+      "1.1.1-alpha": "85b6f7befcb799f602ccd05548e29eca0b0fc7b9",
+      "1.2.0-alpha": "f09a2ec5f2da7cbc337657a0a62bfeac22408da2",
+      "1.4.9-beta": "f1dad4494169122b769b806dcd158ad60ad53a68",
+      "1.5.0-beta": "d2832905b22fc38ead957c4ebc2ccd917eeff603",
+      "1.5.0-beta.5": "bfe1fa16fa3e8a2162774f6771ed1ec218af392b"
+    }
+  },
+  {
+    "url": "https://github.com/StreamController/Clocks",
+    "commits": {
+      "1.0.0-alpha": "f54ca6c1614615cb5fe3d6fba88bdf17f6c765c2",
+      "1.1.1-alpha": "07f62f0d8dd6d902840410696e4e38fdc32021ee",
+      "1.2.0-alpha": "1d15b12d35f10b814a4fb72b8ad0e5adf8b82213",
+      "1.4.8-beta": "8f60ed32de06001dd818c39362cb2d44eb695229",
+      "1.4.9-beta": "4b95f16433d3167b60c0983a071bb56f2a0a22e2",
+      "1.4.12-beta": "7eef2d018526cc8e245ba6007f52599c25907e96",
+      "1.5.0-beta": "24a9a99cb977ed89cf1239a5c1269ec66a9b8c9c",
+      "1.5.0-beta.5": "382410fe55646e76420d5eea7598e405e69d7f3e"
+    }
+  },
+  {
+    "url": "https://github.com/StreamController/Weather",
+    "commits": {
+      "1.0.0-alpha": "d691ea8bc9846d3b5109e5c9cd28ed870c3061e6",
+      "1.1.1-alpha": "19359f0d0dd1082a6b352aa77187ead808263b7c",
+      "1.2.0-alpha": "90d0b9243e30a035b33311e2d75d8ce7a2cd9e82",
+      "1.4.7-beta": "dcf2fdf2eaeaa3d437c7061f9ff0fdd36d136902",
+      "1.4.9-beta": "09e8e18588ba32836e274cd8f956df6906d4988e",
+      "1.5.0-beta": "0f023a48d29703330c45ed12cec1499759358020",
+      "1.5.0-beta.5": "6d8ad12803c331042b221dcc0ae080af5ed8ef90"
+    }
+  },
+  {
+    "url": "https://github.com/StreamController/Counter",
+    "commits": {
+      "1.0.0-alpha": "83e931aaab2846865387c0b39ff568549cdb1f54",
+      "1.2.0-alpha": "0be5b7cf6ff12bc7175317eac82485f4834fa5b5",
+      "1.4.9-beta": "918b459616cd75166acd90c63cc4c9272b7e60f4",
+      "1.4.12-beta": "17bd73e6b5ff32b1c1df5ef7b62c6026ff62d912",
+      "1.5.0-beta": "b1782f5b83bbf74a0cac7f90e1fe639e21c2c16f",
+      "1.5.0-beta.5": "685b21c92ed799e67d385f7e16d211aef3d952d9"
+    }
+  },
+  {
+    "url": "https://github.com/StreamController/VolumeMixer",
+    "commits": {
+      "1.0.0-alpha": "f1327405a628fa828421cab1ad74bba300d1afac",
+      "1.2.0-alpha": "c2ff8eb248ad3cb14c50e7dbf65c95b2e8404abb",
+      "1.4.9-beta": "84dfbd95e0746d815ea6c807f21e3a9d1e4b11bc",
+      "1.4.12-beta": "35cd4d0e20b5c538052a7ca271fb0dd4e37537fa",
+      "1.5.0-beta": "65c4c7d0f6909146c710736fa6202e1ea8f2661b",
+      "1.5.0-beta.5": "d86db67804d59378562d93a8171280db756c2000"
+    }
+  },
+  {
+    "url": "https://github.com/StreamController/Speedtest",
+    "commits": {
+      "1.1.1-alpha": "09d15a1682ef31d4ef62f649ed07729fb8611624",
+      "1.2.0-alpha": "95b8a3d6fb341e299bc0acbafa0968ecc263ffae",
+      "1.4.9-beta": "8b1e5b24b52ad1ccc5391d4205c77e490852891f",
+      "1.4.12-beta": "bb839d913845f925b017c86db88e613d2496e66c",
+      "1.5.0-beta": "6a2c640430e5df050b0250c41c98891b46786823",
+      "1.5.0-beta.5": "2d7794259903f4c85827c2c0a2b6cb044ace3efa"
+    }
+  },
+  {
+    "url": "https://github.com/StreamController/GnomeWindowCalls",
+    "commits": {
+      "1.2.0-alpha": "fd33c84f306ef976524185509198252dc2fd954d",
+      "1.4.9-beta": "bc3ae99726b0a462aa9a54cfa9d30f499451ffcc",
+      "1.4.12-beta": "77fa3ac5ad7c67f4489573ae6dd23a78e1dd3a19",
+      "1.5.0-beta": "2d422ab1bc7c150789ead46b8004709a0350a9c6",
+      "1.5.0-beta.5": "a8846468adbc2d3f27775da63b92560c07d85155"
+    }
+  },
+  {
+    "url": "https://github.com/StreamController/MicMute",
+    "commits": {
+      "1.2.0-alpha": "e19f0365dad2cceed3e4983e0aa14b2228383a0d",
+      "1.4.9-beta": "4e982a40207b0ab7c1307761cc0845484d25c8c4",
+      "1.4.12-beta": "116574ec11d490872cd0e89eda33ab25d5daaca0",
+      "1.5.0-beta": "7e686110855653582288b45c20a865ed48eb8eb3",
+      "1.5.0-beta.5": "c78789dc79f4eafd23584e7a4cab83436fd132de"
+    }
+  },
+  {
+    "url": "https://github.com/StreamController/Battery",
+    "commits": {
+      "1.2.0-alpha": "31303ab5b2fd60a84c18e3575871035daafcc7cf",
+      "1.4.9-beta": "09db0e3b90895c1f4f8dd22d47fc18563b411d62",
+      "1.4.12-beta": "e17db11e205c5cac3a71b9d8c4fe376aa8f74071",
+      "1.5.0-beta": "236102c4b90db448ff04442bf75d46facbaab941",
+      "1.5.0-beta.5": "e6e8ed12c24780f7c735f45f5c1c3de314725192"
+    }
+  },
+  {
+    "url": "https://github.com/StreamController/AudioSwitcher",
+    "commits": {
+      "1.4.8-beta": "abdd622c7ee1c0760f2aa806f66c245879db1b12",
+      "1.4.9-beta": "a9fe92fb009da647e9b14098a67e271db30a29b3",
+      "1.4.12-beta": "b25f7b6e62332138b21da0c74bdf63068003f3e4",
+      "1.5.0-beta": "fb1afdf2e7803977b9f594e3f14fda1dfac2fdb2",
+      "1.5.0-beta.5": "81b29136a099c08c1618c0e1cf1bbc4a84841a53"
+    }
+  },
+  {
+    "url": "https://github.com/StreamController/Pi-hole",
+    "commits": {
+      "1.4.10-beta": "54b628020e0cf0a06e25bcc43b7ff767508f46e8",
+      "1.4.12-beta": "1500d6d133995135dc960f61a137943f16fd2da5",
+      "1.5.0-beta": "4203a170a8b573d8e37cbacef069311671600091",
+      "1.5.0-beta.5": "8f51549c6acde3c572f53151805fd5e4057d0bb8"
+    }
+  },
+  {
+    "url": "https://github.com/G4PLS/AudioControl",
+    "commits": {
+      "1.0.0-alpha": "d84510cdb5b2eb68f761c1dc5b9655d720d7cc72",
+      "1.4.11-beta": "6363cb291fae49b0994961faa5703d2ce0b53a6f",
+      "1.5.0-beta.2": "7f56624dd1d3051ff2ca828a90515c2cddaed4b7",
+      "1.5.0-beta.3": "620974e30d6e2861246a3493a21a3040e26e5107",
+      "1.5.0-beta.4": "d4b6f3d39bc74504760d4cc366836b8ca6ad0e65",
+      "1.5.0-beta.5": "d0581796a4a07692b07a2d2e415dcf2e186a0c9b",
+      "1.5.0-beta.6": "8a3876641ae4e42ec16bbdb760fc996b1ce27433",
+      "1.5.0-beta.7": "fa392249012c37cf583789d56ac0ca0dbfaa6535",
+      "1.5.0-beta.11": "171add294aac52ffaf4901ea41d3d7adbbe79e78"
+    }
+  },
+  {
+    "url": "https://github.com/jslay88/streamcontroller_helldivers_2",
+    "commits": {
+      "1.5.0-beta.5": "c18c87df83c830394c1ebd6967581080ff0bc462"
+    }
+  },
+  {
+    "url": "https://github.com/gensyn/de_gensyn_HomeAssistantPlugin",
+    "commits": {
+      "1.5.0-beta.3": "d6bd505ab5894d64d7ad655572774539ad59cd90",
+      "1.5.0-beta.4": "33dfef166aba5734052edb942eb7bf77489c0767",
+      "1.5.0-beta.5": "24213c6477ff7887c9bd82cade7b5cc471042043",
+      "1.5.0-beta.7": "6e3e2d6cbe076f14013a72ddd0b95ba1e94ddac4",
+      "1.5.0-beta.8": "2309be93af18d615f6756aafd132c0d16ea31969",
+      "1.5.0-beta.9": "8db11bbb005a32193c58c79e7d7ad5df5f228092"
+    }
+  },
+  {
+    "url": "https://github.com/ImDevinC/StreamControllerTwitchPlugin",
+    "commits": {
+      "1.5.0-beta.4": "f0ccf9a77f9ecf024978eeb0bcf53dea2dc084e5",
+      "1.5.0-beta.5": "22d53051ee483ed4bf03ca7df47f3c5a8a1b6490",
+      "1.5.0-beta.6": "b43f05f0e2747ff9365bc4b08f1080d5221463f3",
+      "1.5.0-beta.9": "ded3382d3a16582aa5cfc1a278bd8fb1098a1f46"
+    }
+  },
+  {
+    "url": "https://github.com/StreamController/Countdown",
+    "commits": {
+      "1.5.0-beta.5": "37e5936171fb836fa32a79b69c9a610db7a43663"
+    }
+  },
+  {
+    "url": "https://github.com/SilentSwordmaiden/StreamController-XIVDeck-Plugin",
+    "commits": {
+      "1.5.0-beta.5": "ccefae9878a0d0547d14aedbb2c0521d5573ec10"
+    }
+  },
+  {
+    "url": "https://github.com/pniedzielski/StreamController-OBSLiveSplitOnePlugin",
+    "commits": {
+      "1.5.0-beta.5": "9cbb36ea809d47fb74049ed3eabd3b00fc2f000a"
+    }
+  },
+  {
+    "url": "https://github.com/ImDevinC/StreamControllerDiscordPlugin",
+    "commits": {
+      "1.5.0-beta.6": "1985fc2b3c8fb389a260a2d6ff50b8b2ebb05c3c",
+      "1.5.0-beta.8": "0b79f6580242a30a64c62ba2d3b7e073757d3afc",
+      "1.5.0-beta.9": "0270fb74da721379c5132ac65d07d567c4b11850"
+    }
+  },
+  {
+    "url": "https://github.com/dehnhardt/StreamController-MixbusPlugin",
+    "commits": {
+      "1.5.0-beta.7": "c451f88f7e919601080a8177ea632143f5301203"
+    }
+  },
+  {
+    "url": "https://github.com/cozybuild/StreamControllerElgatoKeyLight",
+    "commits": {
+      "1.5.0-beta.5": "1ea07125f182edced672671d31ac7de1dbec8c8e"
+    }
+  },
+  {
+    "url": "https://github.com/eumario/StreamController_WebSocket",
+    "commits": {
+      "1.5.0-beta.7": "d5539465a9b4b472622dcba6bcdf3292003f9800"
+    }
+  },
+  {
+    "url": "https://github.com/eumario/StreamController_MangoHud",
+    "commits": {
+      "1.5.0-beta.7": "8f5187693ba8d144fa26ed25004f7839ddee1a23"
+    }
+  },
+  {
+    "url": "https://github.com/Kekemui/VeadoSC",
+    "commits": {
+      "1.5.0-beta.7": "0791541cc0ff7ec2d3a86d85d494d3d83aab4d60"
+    }
+  },
+  {
+    "url": "https://github.com/StreamController/QEMUPlugin",
+    "commits": {
+      "1.5.0-beta.8": "738fe43b2a02d5902f815bec042de59dc199e949"
+    }
+  },
+  {
+    "url": "https://github.com/ReneLu/SpotifyControl",
+    "commits": {
+      "1.5.0-beta.11": "cdc46acce611c3301b5999258e08626503267f4a"
+    }
+  },
+  {
+    "url": "https://github.com/StreamController/ControllerPlugin",
+    "commits": {
+      "1.5.0-beta.10": "61c3b02fb816366a281b71d527e9215e0d213335"
+    }
+  },
+  {
+    "url": "https://github.com/bamarc/SpotifyForStreamController",
+    "commits": {
+      "1.5.0-beta.10": "5306137e07a6f6f50723f9a8ef95a419e5d4d857"
+    }
+  },
+  {
+    "url": "https://github.com/buggex/StreamController-SoundboardPlugin",
+    "commits": {
+      "1.5.0-beta.10": "a62d8164e4052cc08e2569734f5b1943b60356d5"
+    }
+  },
+  {
+    "url": "https://github.com/Thiritin/kimai-streamcontroller-action",
+    "commits": {
+      "1.5.0-beta.10": "21d2bc3fd0c3adedf47f0db32098a612272149b4"
+    }
+  },
+  {
+    "url": "https://github.com/parkour86/DaysUntil",
+    "commits": {
+      "1.1.2-alpha": "f5eaa358ece1b61d1f831c940bf04f06a9d9fbf5"
+    }
+  },
+  {
+    "url": "https://github.com/UlvFoerlev/EasySound",
+    "commits": {
+      "1.0.0-beta": "0495b25dfea99203f5f1eefd4772e1f5bf3a9215",
+      "1.5.0-beta": "0495b25dfea99203f5f1eefd4772e1f5bf3a9215",
+      "1.5.0-beta.11": "0495b25dfea99203f5f1eefd4772e1f5bf3a9215"
+    }
+  },
+  {
+    "url": "https://github.com/Tiebe/JetbrainsPlugin",
+    "commits": {
+      "1.5.0-beta.11": "805bc64ed1d5263518d88c32be53529bb0171c8b"
+    }
+  },
+  {
+    "url": "https://github.com/parkour86/GithubPlugin",
+    "commits": {
+      "1.1.1-alpha": "dc36bdab1d47e140d3c70c0d6fa29c9283485d21"
+    }
+  },
+  {
+    "url": "https://github.com/nekename/streamcontroller-opendeck",
+    "commits": {
+      "1.5.0-beta.11": "2ebdac0e1da222e99013bcef9e836998b5b04955"
+    }
+  }
 ]
