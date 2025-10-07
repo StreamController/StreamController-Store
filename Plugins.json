@@ -335,5 +335,11 @@
         "commits": {
             "1.5.0-beta.11": "2ebdac0e1da222e99013bcef9e836998b5b04955"
         }
+    },
+    {
+        "url": "https://github.com/miikamenk/VTubeStudioPlugin",
+        "commits": {
+            "1.5.0-beta.11": "4676e8f7c73e07c6c9ce056393128015c4e6e036"
+        }
     }
 ]
