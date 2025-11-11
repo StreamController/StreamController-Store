@@ -341,5 +341,11 @@
         "commits": {
             "1.5.0-beta.11": "4676e8f7c73e07c6c9ce056393128015c4e6e036"
         }
+    },
+    {
+        "url": "https://github.com/Wattos/streamcontroller-google-meets-plugin",
+        "commits": {
+            "1.5.0-beta.12": "a88b5d6d283437a82c000d79b5db2a11a0100004"
+        }
     }
 ]
