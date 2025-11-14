@@ -343,6 +343,9 @@
         }
     },
     {
+        "url": "https://github.com/zealain/streamcontroller-pulse-profile",
+        "commits": {
+            "1.5.0-beta.12": "7a7178cc0272db33c23ca6694dbad712b7783674"
         "url": "https://github.com/Wattos/streamcontroller-google-meets-plugin",
         "commits": {
             "1.5.0-beta.12": "d5d93114ffd4ca5e3251c60f3e7dfbc0b77f6ee5"
