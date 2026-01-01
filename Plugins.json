@@ -364,7 +364,8 @@
         "url": "https://github.com/designgears/DeckWeaver",
         "commits": {
             "1.5.0-beta.5": "ca3416cedb7edbb4e55ea8c53b61602572059e52",
-            "1.5.0-beta.12": "b9dc6dc1c048b81d8b52d760918d6fe68df89ed8"
+            "1.5.0-beta.11": "b9dc6dc1c048b81d8b52d760918d6fe68df89ed8",
+            "1.5.0-beta.12": "ffd7156fa3b496339764f0839369b31294b63524"
         }
     }
 ]
