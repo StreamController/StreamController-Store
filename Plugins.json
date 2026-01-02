@@ -366,5 +366,11 @@
             "1.5.0-beta.5": "ca3416cedb7edbb4e55ea8c53b61602572059e52",
             "1.5.0-beta.12": "b9dc6dc1c048b81d8b52d760918d6fe68df89ed8"
         }
+    },
+    {
+        "url": "https://github.com/Pol-Valentin/streamcontroller-tictactoe",
+        "commits": {
+            "1.5.0-beta.6": "be5349003fc4173a7e30b51c49380f74f6159194"
+        }
     }
 ]
