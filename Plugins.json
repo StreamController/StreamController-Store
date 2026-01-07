@@ -368,5 +368,12 @@
             "1.5.0-beta.11": "b9dc6dc1c048b81d8b52d760918d6fe68df89ed8",
             "1.5.0-beta.12": "89a50a6c3e3942c2575a4bb86fe5f89af6ae9f2c"
         }
-    }
+    },
+    {  
+        "url": "https://github.com/RamboRogers/streamcontroller_helldivers_2",  
+        "commits": {  
+        "1.1.1-alpha": "eaa4d205705b3af206e62632f1bd0dc4cb2346c4"  
+  }  
+}  
+    
 ]
