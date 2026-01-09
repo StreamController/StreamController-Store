@@ -368,5 +368,12 @@
             "1.5.0-beta.11": "b9dc6dc1c048b81d8b52d760918d6fe68df89ed8",
             "1.5.0-beta.12": "89a50a6c3e3942c2575a4bb86fe5f89af6ae9f2c"
         }
-    }
+    },
+    {
+        "url": "https://github.com/geeksville/SteamController_VSCode",
+        "commits": {
+            "1.0.0": "034e0dbf2eb20e42f9fb3fe9efc913a3e74ea119",
+            "1.0.1": "08f293443e5c47846ea98403a40476ee59433abe"
+        }
+    }    
 ]
