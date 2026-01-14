@@ -379,7 +379,9 @@
     {
         "url": "https://github.com/bgrande/StreamControllerStatusPlugin",
         "commits": {
-            "0.8.1": "862b7cba35a50b958e5b12e1799d596b56a88289"
+            "0.8.2": "862b7cba35a50b958e5b12e1799d596b56a88289",
+            "0.8.3": "9b100d8f63e004df75330c7efc28d4eff42e5c9b",
+            "1.0.0": "d93d384bc15f842e3bb908ac7efa04b204b8fe76"
         }
     }
 ]
