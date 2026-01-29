@@ -372,7 +372,8 @@
     {
         "url": "https://github.com/Quintar/StreamDeckButton",
         "commits": {
-            "1.0.0": "fe3024c"
+            "1.0.0": "fe3024c",
+            "1.0.1": "fc5123b"
         }
     }
 ]
