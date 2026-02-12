@@ -376,5 +376,11 @@
             "1.0.0": "034e0dbf2eb20e42f9fb3fe9efc913a3e74ea119",
             "1.0.1": "08f293443e5c47846ea98403a40476ee59433abe"
         }
-    }    
+    }
+    {
+    "url": "https://github.com/ethanbanker/HomeBridge-StreamController-Plugin",
+    "commits": {
+        "1.0.0": "1e9a1230a18099404d0a308969f0f32fd278cb9f"
+    }
+}
 ]
