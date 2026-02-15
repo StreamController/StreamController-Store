@@ -207,7 +207,7 @@
     {
         "url": "https://github.com/gensyn/HomeAssistantPlugin",
         "commits": {
-            "1.5.0-beta.9": "f3ba0abc4260a7ac3dd8ba039f333f360197f503"
+            "1.5.0-beta.9": "be3da5c66df40d9b6ab9cc515bc02a5e63399988"
         }
     },
     {
@@ -378,9 +378,21 @@
         }
     },
     {
-    "url": "https://github.com/ethanbanker/HomeBridge-StreamController-Plugin",
-    "commits": {
-        "1.0.0": "1e9a1230a18099404d0a308969f0f32fd278cb9f"
+        "url": "https://github.com/ethanbanker/HomeBridge-StreamController-Plugin",
+        "commits": {
+            "1.0.0": "1e9a1230a18099404d0a308969f0f32fd278cb9f"
+        }
+    },
+    {
+        "url": "https://github.com/dariuszz123/streamcontroller-pomodoro-timer-plugin",
+        "commits": {
+            "1.5.0-beta.13": "adce5d19537eaa296badb8b2bfac4cde0a46683c"
+        }
+    },
+    {
+        "url": "https://github.com/bgrande/StreamControllerStatusPlugin",
+        "commits": {
+            "1.0.0": "3451c4e0275d4abd7fe18656714221fee37d887b"
+        }
     }
-}
 ]
