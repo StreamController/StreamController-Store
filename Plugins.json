@@ -376,5 +376,11 @@
             "1.0.0": "034e0dbf2eb20e42f9fb3fe9efc913a3e74ea119",
             "1.0.1": "08f293443e5c47846ea98403a40476ee59433abe"
         }
-    }    
+    },
+    {
+        "url": "https://github.com/dariuszz123/streamcontroller-pomodoro-timer-plugin",
+        "commits": {
+            "1.5.0-beta.13": "adce5d19537eaa296badb8b2bfac4cde0a46683c"
+        }
+    } 
 ]
