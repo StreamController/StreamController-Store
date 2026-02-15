@@ -378,6 +378,12 @@
         }
     },
     {
+        "url": "https://github.com/ethanbanker/HomeBridge-StreamController-Plugin",
+        "commits": {
+            "1.0.0": "1e9a1230a18099404d0a308969f0f32fd278cb9f"
+        }
+    },
+    {
         "url": "https://github.com/dariuszz123/streamcontroller-pomodoro-timer-plugin",
         "commits": {
             "1.5.0-beta.13": "adce5d19537eaa296badb8b2bfac4cde0a46683c"
