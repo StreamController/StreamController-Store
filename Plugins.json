@@ -371,6 +371,12 @@
         }
     },
     {
+        "url": "https://github.com/Quintar/StreamDeckButton",
+        "commits": {
+            "1.0.0": "b16b4059ca77b50ea1870b2949b267330a17de66"
+        }
+    },
+    {
         "url": "https://github.com/geeksville/SteamController_VSCode",
         "commits": {
             "1.0.0": "034e0dbf2eb20e42f9fb3fe9efc913a3e74ea119",
