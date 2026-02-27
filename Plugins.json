@@ -400,5 +400,12 @@
         "commits": {
             "1.0.0": "3451c4e0275d4abd7fe18656714221fee37d887b"
         }
+    },
+    {
+        "url": "https://github.com/Toixinhell/teamspeak3_StreamController_plugin",
+        "commits": {
+            "0.1.0-alpha": "785daaca0684c69c4fb87c5412c3e2a2a4caeaf4"
+            
+        }
     }
 ]
