@@ -194,20 +194,9 @@
         }
     },
     {
-        "url": "https://github.com/gensyn/de_gensyn_HomeAssistantPlugin",
-        "commits": {
-            "1.5.0-beta.3": "d6bd505ab5894d64d7ad655572774539ad59cd90",
-            "1.5.0-beta.4": "33dfef166aba5734052edb942eb7bf77489c0767",
-            "1.5.0-beta.5": "24213c6477ff7887c9bd82cade7b5cc471042043",
-            "1.5.0-beta.7": "6e3e2d6cbe076f14013a72ddd0b95ba1e94ddac4",
-            "1.5.0-beta.8": "2309be93af18d615f6756aafd132c0d16ea31969",
-            "1.5.0-beta.9": "2ec1d111929f0c6097d43b0d14a67002c619a8cc"
-        }
-    },
-    {
         "url": "https://github.com/gensyn/HomeAssistantPlugin",
         "commits": {
-            "1.5.0-beta.9": "5f3c0e752ec26a3f4b4c620260307a7671c42780"
+            "1.5.0-beta.9": "2ffddc9815367386f5f9db38758fe179b8ad4af0"
         }
     },
     {
