@@ -401,5 +401,11 @@
         "commits": {
             "0.1.0": "00d2597dbda67c8b90063afe6101da69a98dea97"
         }
+    },
+    {
+        "url": "https://github.com/tyvsmith/streamcontroller-lg-monitor-control",
+        "commits": {
+            "0.1.0": "f47f4b8b233baee935fe6c729f33e5fa4687ff6c"
+        }
     }
 ]
