@@ -401,5 +401,11 @@
         "commits": {
             "0.1.0": "00d2597dbda67c8b90063afe6101da69a98dea97"
         }
+    },
+    {
+        "url": "https://github.com/Pol-Valentin/emoji-memory",
+        "commits": {
+            "1.5.0-beta.6": "ebb3ab19771310cefc4d13cc21020e36ca94d53a"
+        }
     }
 ]
