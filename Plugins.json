@@ -401,5 +401,11 @@
         "commits": {
             "0.1.0": "00d2597dbda67c8b90063afe6101da69a98dea97"
         }
+    },
+        {
+        "url": "https://github.com/MiguelAngelLV/streamcontroller-steam",
+        "commits": {
+            "0.8": "0ba00472f3738fd8293b5548cf72972bc04761fd"
+        }
     }
 ]
