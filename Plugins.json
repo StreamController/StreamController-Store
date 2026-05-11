@@ -410,4 +410,10 @@
             "1.5.0-beta": "513b966b535b81f13ab566d2212bfd545fcee22f"
         }
     }
+    {
+        "url": "https://github.com/Dav1d-Fn/StreamController-BetterVolumeMixer",
+        "commits": {
+            "1.0.0": "5f2059a24d7e0ac15b1c5205ae3b5ea29c31aec4"
+        }
+    }
 ]
