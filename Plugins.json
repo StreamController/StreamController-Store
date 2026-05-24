@@ -196,7 +196,7 @@
     {
         "url": "https://github.com/gensyn/HomeAssistantPlugin",
         "commits": {
-            "1.5.0-beta.9": "2ffddc9815367386f5f9db38758fe179b8ad4af0"
+            "1.5.0-beta.9": "f86e89ab96168edaf54866450436703146b110e4"
         }
     },
     {
@@ -273,7 +273,7 @@
     {
         "url": "https://github.com/ReneLu/SpotifyControl",
         "commits": {
-            "1.5.0-beta.11": "cdc46acce611c3301b5999258e08626503267f4a"
+            "1.5.0-beta.13": "adda0cca97c185e234fc2b1bda6b8de75c85af9d"
         }
     },
     {
@@ -335,7 +335,7 @@
     {
         "url": "https://github.com/miikamenk/VTubeStudioPlugin",
         "commits": {
-            "1.5.0-beta.11": "4676e8f7c73e07c6c9ce056393128015c4e6e036"
+            "1.5.0-beta.13": "3904f0e17ae16519311bb05bfc9ccba891a98f10"
         }
     },
     {
@@ -356,7 +356,8 @@
             "1.5.0-beta.5": "ca3416cedb7edbb4e55ea8c53b61602572059e52",
             "1.5.0-beta.11": "b9dc6dc1c048b81d8b52d760918d6fe68df89ed8",
             "1.5.0-beta.12": "89a50a6c3e3942c2575a4bb86fe5f89af6ae9f2c",
-            "1.5.0-beta.13": "487f07d53ca7458957b82ebc69824bdee2b947d6"
+            "1.5.0-beta.13": "487f07d53ca7458957b82ebc69824bdee2b947d6",
+            "1.5.0-beta.14": "b3adef0b80cad33cafd8187a6b53f27d9daecfcb"
         }
     },
     {
@@ -399,7 +400,20 @@
     {
         "url": "https://github.com/tyvsmith/streamcontroller-lan-mouse",
         "commits": {
-            "0.1.0": "00d2597dbda67c8b90063afe6101da69a98dea97"
+            "0.1.0": "00d2597dbda67c8b90063afe6101da69a98dea97",
+            "1.5.0-beta": "c18fd0ab1304b0e869c642c62bc51bddfcaa8833"
+        }
+    },
+    {
+        "url": "https://github.com/tyvsmith/streamcontroller-lg-monitor-control",
+        "commits": {
+            "1.5.0-beta": "513b966b535b81f13ab566d2212bfd545fcee22f"
+        }
+    },
+    {
+        "url": "https://github.com/Dav1d-Fn/StreamController-BetterVolumeMixer",
+        "commits": {
+            "1.0.0": "ae64cfb0dd33d4b77702487166e4c47223e5f42c"
         }
     },
         {
