@@ -1,0 +1,64 @@
+name: Update Plugin Hash
+
+on:
+  repository_dispatch:
+    types: [plugin_updated]
+
+# Ensure the workflow has permissions to manage PRs and update contents
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-store:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Store Repo
+        uses: actions/checkout@v4
+
+      - name: Update Plugins.json
+        env:
+          REPO_URL: ${{ github.event.client_payload.repo_url }}
+          VERSION: ${{ github.event.client_payload.version }}
+          COMMIT_SHA: ${{ github.event.client_payload.commit_sha }}
+        run: |
+          # Uses jq to map over the array. Finds the object where "url" matches,
+          # and adds/updates the commit hash under the specified version key.
+          jq --arg url "$REPO_URL" --arg ver "$VERSION" --arg sha "$COMMIT_SHA" \
+            'map(if .url == $url then .commits[$ver] = $sha else . end)' \
+            Plugins.json > temp.json && mv temp.json Plugins.json
+
+      - name: Extract Plugin Name
+        id: plugin_info
+        run: |
+          # Extracts the repository name (e.g., "MediaPlugin") from the full URL
+          PLUGIN_NAME=$(echo "${{ github.event.client_payload.repo_url }}" | awk -F'/' '{print $5}')
+          echo "name=$PLUGIN_NAME" >> $GITHUB_OUTPUT
+
+      - name: Close Old Pull Requests for this Plugin
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PLUGIN_NAME: ${{ steps.plugin_info.outputs.name }}
+        run: |
+          # Search for any open PRs originating from a branch that belongs to this specific plugin
+          prs=$(gh pr list --state open --json headRefName,number --jq ".[] | select(.headRefName | startswith(\"update-plugin-$PLUGIN_NAME-\")) | .number")
+          
+          for pr in $prs; do
+            echo "Closing older unmerged PR #$pr"
+            gh pr close "$pr" --comment "Superseded by a newer push to the plugin repository."
+          done
+
+      - name: Create New Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "update(${{ steps.plugin_info.outputs.name }}): update hash for ${{ github.event.client_payload.version }}"
+          title: "Update ${{ steps.plugin_info.outputs.name }} to ${{ github.event.client_payload.version }}"
+          body: |
+            Automated update of commit hash for plugin: ${{ steps.plugin_info.outputs.name }}
+            - **Version/Branch:** ${{ github.event.client_payload.version }}
+            - **Commit SHA:** ${{ github.event.client_payload.commit_sha }}
+          # Appending the SHA makes the branch name unique, ensuring a brand-new PR is opened 
+          # rather than updating the previous one (which we closed in the step above).
+          branch: "update-plugin-${{ steps.plugin_info.outputs.name }}-${{ github.event.client_payload.commit_sha }}"
+          base: main
