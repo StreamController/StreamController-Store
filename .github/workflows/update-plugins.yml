@@ -37,7 +37,7 @@ jobs:
 
       - name: Close Old Pull Requests for this Plugin
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.STORE_AUTOMATION_TOKEN }}
           PLUGIN_NAME: ${{ steps.plugin_info.outputs.name }}
         run: |
           # Search for any open PRs originating from a branch that belongs to this specific plugin
@@ -51,7 +51,7 @@ jobs:
       - name: Create New Pull Request
         uses: peter-evans/create-pull-request@v6
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STORE_AUTOMATION_TOKEN }}
           commit-message: "update(${{ steps.plugin_info.outputs.name }}): update hash for ${{ github.event.client_payload.version }}"
           title: "Update ${{ steps.plugin_info.outputs.name }} to ${{ github.event.client_payload.version }}"
           body: |
