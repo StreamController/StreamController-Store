@@ -31,7 +31,6 @@ jobs:
           old_data = json.loads(old_content)
           new_data = json.loads(new_content)
 
-          # Turn lists into dicts keyed by repository URL
           old_dict = {item['url']: item['commits'] for item in old_data}
           new_dict = {item['url']: item['commits'] for item in new_data}
 
@@ -46,15 +45,28 @@ jobs:
                   if old_sha != new_sha:
                       plugin_name = url.split('/')[-1]
                       
-                      # Build comparison link (or a fallback direct commit link if it's a new version)
-                      if old_sha:
+                      if old_sha is not None:
+                          # Case 1: An existing version key was updated directly
                           changelog_url = f"{url}/compare/{old_sha}...{new_sha}"
+                          display_text = f"Update ({new_sha[:7]})"
                       else:
-                          changelog_url = f"{url}/commit/{new_sha}"
+                          # Case 2: A brand new version key was added
+                          if old_commits:
+                              # Grab the very last version name and its corresponding real hash
+                              prev_version = list(old_commits.keys())[-1]
+                              prev_sha = old_commits[prev_version]
+                              
+                              changelog_url = f"{url}/compare/{prev_sha}...{new_sha}"
+                              display_text = f"{prev_version}...{version}"
+                          else:
+                              # Fallback for the first ever release of a plugin
+                              changelog_url = f"{url}/commit/{new_sha}"
+                              display_text = f"Initial Commit ({new_sha[:7]})"
                       
                       with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
                           f.write(f"plugin_name={plugin_name}\n")
                           f.write(f"changelog_url={changelog_url}\n")
+                          f.write(f"display_text={display_text}\n")
                       found = True
                       break
               if found:
@@ -67,13 +79,14 @@ jobs:
           CHANNEL_ID: ${{ secrets.DISCORD_CHANNEL_ID }}
           PLUGIN_NAME: ${{ steps.diff.outputs.plugin_name }}
           CHANGELOG_URL: ${{ steps.diff.outputs.changelog_url }}
+          DISPLAY_TEXT: ${{ steps.diff.outputs.display_text }}
         run: |
-          # Build a clean Markdown payload safe from string-breaking characters
+          # Formats as [1.5.0-beta.13...1.5.0-beta.14](<URL>) 
+          # The < > inside the markdown parenthesis cleanly suppresses the Discord embed preview!
           PAYLOAD=$(jq -n \
-            --arg msg "# 🎉 $PLUGIN_NAME updated"$'\n\n'"Changelog: $CHANGELOG_URL" \
+            --arg msg "# 🎉 $PLUGIN_NAME updated"$'\n\n'"Changelog: [$DISPLAY_TEXT](<$CHANGELOG_URL>)" \
             '{content: $msg}')
           
-          # Send payload directly to the Discord API using Bot authentication
           curl -X POST \
             -H "Authorization: Bot $BOT_TOKEN" \
             -H "Content-Type: application/json" \
