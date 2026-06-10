@@ -417,6 +417,12 @@
             "1.0.0": "ae64cfb0dd33d4b77702487166e4c47223e5f42c"
         }
     },
+    {
+        "url": "https://github.com/benwyrosdick/streamdeck-tailscale",
+        "commits": {
+            "1.0.0": "61c1ba5940353b5dbf28e2edefc10c56e35ca061"
+        }
+    },
         {
         "url": "https://github.com/MiguelAngelLV/streamcontroller-steam",
         "commits": {
