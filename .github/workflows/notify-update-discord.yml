@@ -36,39 +36,28 @@ jobs:
 
           found = False
           for url, new_commits in new_dict.items():
-              old_commits = old_dict.get(url, {})
-              
-              for version, new_sha in new_commits.items():
-                  old_sha = old_commits.get(version)
+              if url in old_dict:
+                  old_commits = old_dict[url]
                   
-                  # Check if the commit hash for this version changed
-                  if old_sha != new_sha:
-                      plugin_name = url.split('/')[-1]
+                  # Get the single version key and its new SHA
+                  for version, new_sha in new_commits.items():
+                      # Fallback to absolute positional value if the app version key itself was updated
+                      old_sha = old_commits.get(version) or list(old_commits.values())[0]
                       
-                      if old_sha is not None:
-                          # Case 1: An existing version key was updated directly
+                      # Trigger if the commit hash changed
+                      if old_sha != new_sha:
+                          plugin_name = url.split('/')[-1]
                           changelog_url = f"{url}/compare/{old_sha}...{new_sha}"
-                          display_text = f"Update ({new_sha[:7]})"
-                      else:
-                          # Case 2: A brand new version key was added
-                          if old_commits:
-                              # Grab the very last version name and its corresponding real hash
-                              prev_version = list(old_commits.keys())[-1]
-                              prev_sha = old_commits[prev_version]
-                              
-                              changelog_url = f"{url}/compare/{prev_sha}...{new_sha}"
-                              display_text = f"{prev_version}...{version}"
-                          else:
-                              # Fallback for the first ever release of a plugin
-                              changelog_url = f"{url}/commit/{new_sha}"
-                              display_text = f"Initial Commit ({new_sha[:7]})"
-                      
-                      with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
-                          f.write(f"plugin_name={plugin_name}\n")
-                          f.write(f"changelog_url={changelog_url}\n")
-                          f.write(f"display_text={display_text}\n")
-                      found = True
-                      break
+                          
+                          # Creates a clean display string like: "a459c67...bd2cfc3"
+                          display_text = f"{old_sha[:7]}...{new_sha[:7]}"
+                          
+                          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+                              f.write(f"plugin_name={plugin_name}\n")
+                              f.write(f"changelog_url={changelog_url}\n")
+                              f.write(f"display_text={display_text}\n")
+                          found = True
+                          break
               if found:
                   break
 
@@ -81,8 +70,7 @@ jobs:
           CHANGELOG_URL: ${{ steps.diff.outputs.changelog_url }}
           DISPLAY_TEXT: ${{ steps.diff.outputs.display_text }}
         run: |
-          # Formats as [1.5.0-beta.13...1.5.0-beta.14](<URL>) 
-          # The < > inside the markdown parenthesis cleanly suppresses the Discord embed preview!
+          # Formats neatly in Discord markdown with embed-suppressing brackets < >
           PAYLOAD=$(jq -n \
             --arg msg "# 🎉 $PLUGIN_NAME updated"$'\n\n'"Changelog: [$DISPLAY_TEXT](<$CHANGELOG_URL>)" \
             '{content: $msg}')

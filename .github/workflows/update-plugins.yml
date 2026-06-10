@@ -19,13 +19,12 @@ jobs:
       - name: Update Plugins.json
         env:
           REPO_URL: ${{ github.event.client_payload.repo_url }}
-          VERSION: ${{ github.event.client_payload.version }}
           COMMIT_SHA: ${{ github.event.client_payload.commit_sha }}
         run: |
-          # Uses jq to map over the array. Finds the object where "url" matches,
-          # and adds/updates the commit hash under the specified version key.
-          jq --arg url "$REPO_URL" --arg ver "$VERSION" --arg sha "$COMMIT_SHA" \
-            'map(if .url == $url then .commits[$ver] = $sha else . end)' \
+          # Dynamically grabs the first/only key name inside the commits object 
+          # (e.g. "1.5.0-beta") and updates its value to the new commit SHA.
+          jq --arg url "$REPO_URL" --arg sha "$COMMIT_SHA" \
+            'map(if .url == $url then .commits[(.commits | keys[0])] = $sha else . end)' \
             Plugins.json > temp.json && mv temp.json Plugins.json
 
       - name: Extract Plugin Name
