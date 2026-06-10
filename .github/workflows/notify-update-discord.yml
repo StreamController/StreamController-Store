@@ -1,0 +1,81 @@
+name: Notify Discord about plugin update
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'Plugins.json'
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Extract Hash Diff
+        id: diff
+        shell: python
+        run: |
+          import json
+          import os
+          import subprocess
+
+          # Get historical versions of Plugins.json
+          old_content = subprocess.check_output(["git", "show", "HEAD~1:Plugins.json"]).decode("utf-8")
+          new_content = subprocess.check_output(["git", "show", "HEAD:Plugins.json"]).decode("utf-8")
+
+          old_data = json.loads(old_content)
+          new_data = json.loads(new_content)
+
+          # Turn lists into dicts keyed by repository URL
+          old_dict = {item['url']: item['commits'] for item in old_data}
+          new_dict = {item['url']: item['commits'] for item in new_data}
+
+          found = False
+          for url, new_commits in new_dict.items():
+              old_commits = old_dict.get(url, {})
+              
+              for version, new_sha in new_commits.items():
+                  old_sha = old_commits.get(version)
+                  
+                  # Check if the commit hash for this version changed
+                  if old_sha != new_sha:
+                      plugin_name = url.split('/')[-1]
+                      
+                      # Build comparison link (or a fallback direct commit link if it's a new version)
+                      if old_sha:
+                          changelog_url = f"{url}/compare/{old_sha}...{new_sha}"
+                      else:
+                          changelog_url = f"{url}/commit/{new_sha}"
+                      
+                      with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+                          f.write(f"plugin_name={plugin_name}\n")
+                          f.write(f"changelog_url={changelog_url}\n")
+                      found = True
+                      break
+              if found:
+                  break
+
+      - name: Send Message via Discord Bot
+        if: steps.diff.outputs.plugin_name != ''
+        env:
+          BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          CHANNEL_ID: ${{ secrets.DISCORD_CHANNEL_ID }}
+          PLUGIN_NAME: ${{ steps.diff.outputs.plugin_name }}
+          CHANGELOG_URL: ${{ steps.diff.outputs.changelog_url }}
+        run: |
+          # Build a clean Markdown payload safe from string-breaking characters
+          PAYLOAD=$(jq -n \
+            --arg msg "# 🎉 $PLUGIN_NAME updated"$'\n\n'"Changelog: $CHANGELOG_URL" \
+            '{content: $msg}')
+          
+          # Send payload directly to the Discord API using Bot authentication
+          curl -X POST \
+            -H "Authorization: Bot $BOT_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d "$PAYLOAD" \
+            "https://discord.com/api/v10/channels/$CHANNEL_ID/messages"
