@@ -8,8 +8,7 @@
       "1.1.1-alpha": "aaf96d09ecaa77f33af5c3642da73c32c06b16d5",
       "1.2.0-alpha": "51ece25f1b2afb7395331336379b0f2542667bdf",
       "1.4.9-beta": "0e5eeb4ec488d3dd31b4005b9827271c543e53b6",
-      "1.5.0-beta.5": "0850684f4172a388d12c904beb262a75c047476f",
-      "main": "a459c67a05a89181a0239de48ffc106ed21f6c27"
+      "1.5.0-beta.5": "a459c67a05a89181a0239de48ffc106ed21f6c27"
     }
   },
   {
@@ -427,7 +426,7 @@
   {
     "url": "https://github.com/MiguelAngelLV/streamcontroller-steam",
     "commits": {
-      "1.0": "7843d04e5ae8b23ac4a1902778e50ca454974c22"
+      "1.0.0": "7843d04e5ae8b23ac4a1902778e50ca454974c22"
     }
   }
 ]
