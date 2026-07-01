@@ -318,6 +318,12 @@
     }
   },
   {
+    "url": "https://github.com/benwyrosdick/streamdeck-github",
+    "commits": {
+      "1.5.0-beta": "7f35abc0a4ae3ed2206d8a7d5853e09bbc382f05"
+    }
+  },
+  {
     "url": "https://github.com/MiguelAngelLV/streamcontroller-steam",
     "commits": {
       "1.5.0-beta": "7843d04e5ae8b23ac4a1902778e50ca454974c22"
