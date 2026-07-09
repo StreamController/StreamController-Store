@@ -312,6 +312,12 @@
     }
   },
   {
+    "url": "https://github.com/benwyrosdick/streamdeck-sentry",
+    "commits": {
+      "1.5.0-beta": "9f51359635942b9114d6443d4b355161d142b958"
+    }
+  },
+  {
     "url": "https://github.com/benwyrosdick/streamdeck-tailscale",
     "commits": {
       "1.5.0-beta": "789a19132bd73f7a037fa2b0da581efb0e20dc04"
