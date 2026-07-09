@@ -93,7 +93,7 @@ jobs:
                   ]
                   if description:
                       lines += ["", "**Description**", description]
-                  lines += ["", url]
+                  lines += ["", f"<{url}>"]
 
                   messages.append({
                       "content": "\n".join(lines),
