@@ -8,7 +8,7 @@
   {
     "url": "https://github.com/StreamController/OBSPlugin",
     "commits": {
-      "1.5.0-beta": "517ffeb6fe3b9ec5c5a3f8f012ae24f7d5ed819c"
+      "1.5.0-beta": "d31805500d9b014588100ee76a77dec89e9ce6bf"
     }
   },
   {
@@ -344,7 +344,7 @@
   {
     "url": "https://github.com/oparada1988/Volume-Controller-Plus",
     "commits": {
-        "1.0.0": "0d0c1125f3200ffd047050e6849a7b2c49d5b0e8"
+      "1.0.0": "0d0c1125f3200ffd047050e6849a7b2c49d5b0e8"
     }
-}
+  }
 ]
