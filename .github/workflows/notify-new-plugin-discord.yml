@@ -1,0 +1,123 @@
+name: Notify Discord about new plugin
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'Plugins.json'
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Find new plugins and build Discord messages
+        id: build
+        shell: python
+        run: |
+          import json
+          import subprocess
+          import urllib.request
+          import urllib.error
+
+          ROLE_ID = "1235628400912109570"
+          OUTPUT_FILE = "new_plugin_messages.json"
+
+          messages = []
+
+          try:
+              old_content = subprocess.check_output(
+                  ["git", "show", "HEAD~1:Plugins.json"],
+                  stderr=subprocess.DEVNULL,
+              ).decode("utf-8")
+              old_data = json.loads(old_content)
+          except (subprocess.CalledProcessError, json.JSONDecodeError):
+              print("Could not read HEAD~1:Plugins.json — skipping new-plugin check for this run.")
+              old_data = None
+
+          if old_data is not None:
+              new_content = subprocess.check_output(["git", "show", "HEAD:Plugins.json"]).decode("utf-8")
+              new_data = json.loads(new_content)
+
+              old_urls = {item["url"] for item in old_data}
+              new_entries = [item for item in new_data if item["url"] not in old_urls]
+
+              for entry in new_entries:
+                  url = entry["url"].rstrip("/")
+                  commits = entry.get("commits", {})
+                  if not commits:
+                      continue
+                  sha = list(commits.values())[0]
+
+                  owner = url.split("/")[-2]
+                  repo_name = url.split("/")[-1]
+
+                  name = repo_name
+                  description = None
+
+                  manifest_url = url.replace(
+                      "https://github.com/", "https://raw.githubusercontent.com/"
+                  ) + f"/{sha}/manifest.json"
+
+                  try:
+                      req = urllib.request.Request(
+                          manifest_url, headers={"User-Agent": "StreamController-Store-Bot"}
+                      )
+                      with urllib.request.urlopen(req, timeout=10) as resp:
+                          manifest = json.loads(resp.read().decode("utf-8"))
+
+                      name = manifest.get("name") or name
+
+                      descriptions = manifest.get("descriptions") or {}
+                      short_descriptions = manifest.get("short-descriptions") or {}
+                      description = (
+                          descriptions.get("en_US")
+                          or manifest.get("description")
+                          or short_descriptions.get("en_US")
+                          or manifest.get("short-description")
+                          or None
+                      )
+                  except Exception as e:
+                      print(f"Warning: failed to fetch/parse manifest for {url} ({e}); "
+                          f"falling back to repo-name-only announcement.")
+
+                  lines = [
+                      f"# :tada: {name}",
+                      f"<@&{ROLE_ID}>",
+                      f"created by [{owner}](<https://github.com/{owner}>) - Thank you!",
+                  ]
+                  if description:
+                      lines += ["", "**Description**", description]
+                  lines += ["", url]
+
+                  messages.append({
+                      "content": "\n".join(lines),
+                      "allowed_mentions": {
+                          "parse": [],
+                          "roles": [ROLE_ID],
+                      },
+                  })
+
+          with open(OUTPUT_FILE, "w") as f:
+              json.dump(messages, f)
+
+          print(f"Prepared {len(messages)} new-plugin announcement(s).")
+
+      - name: Send messages to Discord
+        env:
+          BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          CHANNEL_ID: "1227627805307568210"
+        run: |
+          jq -c '.[]' new_plugin_messages.json | while IFS= read -r payload; do
+            curl -sS -X POST \
+              -H "Authorization: Bot $BOT_TOKEN" \
+              -H "Content-Type: application/json" \
+              -d "$payload" \
+              "https://discord.com/api/v10/channels/$CHANNEL_ID/messages"
+            sleep 1
+          done
