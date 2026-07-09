@@ -8,7 +8,7 @@
   {
     "url": "https://github.com/StreamController/OBSPlugin",
     "commits": {
-      "1.5.0-beta": "a920e1a3002f3c71e89862e6618124b0a8e086b8"
+      "1.5.0-beta": "b1ce57bdb351d21bc58b95a40c2fd027ce7d416b"
     }
   },
   {
@@ -104,7 +104,7 @@
   {
     "url": "https://github.com/gensyn/HomeAssistantPlugin",
     "commits": {
-      "1.5.0-beta": "f86e89ab96168edaf54866450436703146b110e4"
+      "1.5.0-beta": "98937b7d55d40c8ca1256f8c8c924c36ac73cb66"
     }
   },
   {
@@ -314,7 +314,7 @@
   {
     "url": "https://github.com/benwyrosdick/streamdeck-tailscale",
     "commits": {
-      "1.5.0-beta": "61c1ba5940353b5dbf28e2edefc10c56e35ca061"
+      "1.5.0-beta": "789a19132bd73f7a037fa2b0da581efb0e20dc04"
     }
   },
   {
