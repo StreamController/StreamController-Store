@@ -346,5 +346,11 @@
     "commits": {
       "1.0.0": "cd1d68ae2702b27c9c46df0444699ce9b2d0ffb9"
     }
+  },
+  {
+    "url": "https://github.com/oparada1988/Govee-Streamcontroller",
+    "commits": {
+      "1.0.0": "2ae91e623ead06d345be1928251f0981f275d8aa"
+    }
   }
 ]
