@@ -8,7 +8,7 @@
   {
     "url": "https://github.com/StreamController/OBSPlugin",
     "commits": {
-      "1.5.0-beta": "1cb7d5948b4771f069cc19286bf00b95fd4bba76"
+      "1.5.0-beta": "bdbf137465af11f66b0e899f3b7f3b8638f1f869"
     }
   },
   {
@@ -176,7 +176,7 @@
   {
     "url": "https://github.com/ReneLu/SpotifyControl",
     "commits": {
-      "1.5.0-beta": "adda0cca97c185e234fc2b1bda6b8de75c85af9d"
+      "1.5.0-beta": "4125e16a261bbbe26d5e19280bf163bc3026192e"
     }
   },
   {
@@ -254,7 +254,7 @@
   {
     "url": "https://github.com/designgears/DeckWeaver",
     "commits": {
-      "1.5.0-beta": "a70c4d942a5075c741c9f8fe57beacb417145756"
+      "1.5.0-beta": "31a3804862dc2720080123b13db7b003072a7b15"
     }
   },
   {
@@ -358,6 +358,11 @@
     "url": "https://github.com/julaub/StreamController-AMDGPUTop",
     "commits": {
       "1.5.0-beta": "cd935bd644c69a6ba45fef867a7d0f1ae39a7c55"
+  },
+  {
+    "url": "https://github.com/oparada1988/DiscordSC",
+    "commits": {
+      "1.0.4": "d0dfa44304bef4c06dbf110572f40c68465e921e"
     }
   }
 ]
