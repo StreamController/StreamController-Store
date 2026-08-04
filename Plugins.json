@@ -365,5 +365,11 @@
     "commits": {
       "1.1.4": "a06a779905e2261f38c402e528cc07454ad45795"
     }
+  },
+  {
+    "url": "https://github.com/seipass/CodexUsageInLinuxTreamDeck",
+    "commits": {
+      "1.5.0": "9f39b746010d47fc26cb22e15e6ed842f5563176"
+    }
   }
 ]
