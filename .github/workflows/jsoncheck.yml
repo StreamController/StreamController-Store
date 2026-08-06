@@ -2,16 +2,76 @@ name: JSON check
 
 on:
   push:
+    branches: [main]
     paths:
       - '**.json'
   pull_request:
+    paths:
+      - '**.json'
+
+permissions:
+  contents: write
 
 jobs:
-  test:
+  check:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: json-syntax-check
-        uses: limitusus/json-syntax-check@v2
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
-          pattern: "\\.json$"
+          ref: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || github.ref }}
+          fetch-depth: 0
+          token: ${{ github.event_name == 'push' && secrets.STORE_AUTOMATION_TOKEN || github.token }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install json_repair
+
+      - name: Pick validation mode
+        id: mode
+        run: |
+          if [ "${{ github.event_name }}" = "push" ]; then
+            # Direct commit landed on main: try to repair it, and if that's not
+            # possible/safe, fall back to the last known-good version so the app
+            # is never left pointed at broken JSON.
+            echo "args=--fix --restore-fallback" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.pull_request.head.repo.full_name }}" = "${{ github.repository }}" ]; then
+            # PR from a branch in this repo: safe to push an auto-fix commit back to it.
+            echo "args=--fix" >> "$GITHUB_OUTPUT"
+          else
+            # PR from a fork: we can't push to it, so just check and report.
+            echo "args=" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Validate JSON
+        id: validate
+        continue-on-error: true
+        run: python scripts/validate_json.py ${{ steps.mode.outputs.args }}
+
+      - name: Commit auto-fix
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.event_name == 'push' && secrets.STORE_AUTOMATION_TOKEN || github.token }}
+        run: |
+          if ! git diff --quiet -- '*.json'; then
+            git config user.name "streamcontroller-bot"
+            git config user.email "actions@github.com"
+            git add -- '*.json'
+            if [ "${{ github.event_name }}" = "push" ]; then
+              git commit -m "fix(json): auto-repair invalid JSON pushed directly to main"
+              git push "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" HEAD:${{ github.ref_name }}
+            else
+              git commit -m "fix(json): auto-repair invalid JSON"
+              git push origin HEAD:${{ github.head_ref }}
+            fi
+          else
+            echo "No changes to commit"
+          fi
+
+      - name: Fail if invalid JSON remains
+        if: steps.validate.outcome == 'failure'
+        run: exit 1
