@@ -132,12 +132,6 @@
     }
   },
   {
-    "url": "https://github.com/ImDevinC/StreamControllerDiscordPlugin",
-    "commits": {
-      "1.5.0-beta": "04b0545617603d8a6fa4e94a0ab3a554dd062ebc"
-    }
-  },
-  {
     "url": "https://github.com/dehnhardt/StreamController-MixbusPlugin",
     "commits": {
       "1.5.0-beta": "c451f88f7e919601080a8177ea632143f5301203"
