@@ -16,12 +16,24 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
+      - name: Decide whether we may push a fix commit
+        id: pushable
+        run: |
+          if [ "${{ github.event_name }}" = "push" ] || [ "${{ github.event.pull_request.head.repo.full_name }}" = "${{ github.repository }}" ]; then
+            echo "value=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "value=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Checkout
         uses: actions/checkout@v4
         with:
           ref: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || github.ref }}
           fetch-depth: 0
-          token: ${{ github.event_name == 'push' && secrets.STORE_AUTOMATION_TOKEN || github.token }}
+          # The default GITHUB_TOKEN doesn't re-trigger workflow runs when it pushes,
+          # which would leave a required status check permanently unreported on the
+          # fix commit. Use the automation PAT whenever we might push one.
+          token: ${{ steps.pushable.outputs.value == 'true' && secrets.STORE_AUTOMATION_TOKEN || github.token }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -39,7 +51,7 @@ jobs:
             # possible/safe, fall back to the last known-good version so the app
             # is never left pointed at broken JSON.
             echo "args=--fix --restore-fallback" >> "$GITHUB_OUTPUT"
-          elif [ "${{ github.event.pull_request.head.repo.full_name }}" = "${{ github.repository }}" ]; then
+          elif [ "${{ steps.pushable.outputs.value }}" = "true" ]; then
             # PR from a branch in this repo: safe to push an auto-fix commit back to it.
             echo "args=--fix" >> "$GITHUB_OUTPUT"
           else
@@ -53,9 +65,7 @@ jobs:
         run: python scripts/validate_json.py ${{ steps.mode.outputs.args }}
 
       - name: Commit auto-fix
-        if: always()
-        env:
-          GH_TOKEN: ${{ github.event_name == 'push' && secrets.STORE_AUTOMATION_TOKEN || github.token }}
+        if: always() && steps.pushable.outputs.value == 'true'
         run: |
           if ! git diff --quiet -- '*.json'; then
             git config user.name "streamcontroller-bot"
@@ -63,7 +73,7 @@ jobs:
             git add -- '*.json'
             if [ "${{ github.event_name }}" = "push" ]; then
               git commit -m "fix(json): auto-repair invalid JSON pushed directly to main"
-              git push "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" HEAD:${{ github.ref_name }}
+              git push origin HEAD:${{ github.ref_name }}
             else
               git commit -m "fix(json): auto-repair invalid JSON"
               git push origin HEAD:${{ github.head_ref }}
