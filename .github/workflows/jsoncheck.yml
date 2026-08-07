@@ -25,11 +25,6 @@ jobs:
             echo "value=false" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Debug token length (temporary)
-        env:
-          TOKEN: ${{ secrets.STORE_AUTOMATION_TOKEN }}
-        run: echo "STORE_AUTOMATION_TOKEN length = ${#TOKEN}"
-
       - name: Checkout
         uses: actions/checkout@v4
         with:
