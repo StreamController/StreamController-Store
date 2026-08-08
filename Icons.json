@@ -31,5 +31,11 @@
         "commits": {
             "1.0.0": "e5a8cade8fc348e48ba97c47207c096d7d39c61e"
         }
+    },
+    {
+        "url": "https://github.com/TaromaruYuki/Bootstrap-Icons-StreamController",
+        "commits": {
+            "1.13.1": "9a5b6a1b75a16c23624a63c55f8a632224f57d81"
+        }
     }
 ]
