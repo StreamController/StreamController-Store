@@ -47,39 +47,26 @@ jobs:
                   new_data = None
 
               if new_data is not None:
-                  old_dict = {item['url']: item['commits'] for item in old_data if isinstance(item, dict) and 'url' in item and 'commits' in item}
-                  new_dict = {item['url']: item['commits'] for item in new_data if isinstance(item, dict) and 'url' in item and 'commits' in item}
+                  old_dict = {item['url']: item['hash'] for item in old_data if isinstance(item, dict) and 'url' in item and 'hash' in item}
+                  new_dict = {item['url']: item['hash'] for item in new_data if isinstance(item, dict) and 'url' in item and 'hash' in item}
 
-                  found = False
-                  for url, new_commits in new_dict.items():
-                      if url in old_dict and isinstance(new_commits, dict):
-                          old_commits = old_dict[url]
-                          if not isinstance(old_commits, dict):
-                              continue
-                          
-                          # Get the single version key and its new SHA
-                          for version, new_sha in new_commits.items():
-                              old_values = list(old_commits.values())
-                              if not old_values:
-                                  continue
-                              # Fallback to absolute positional value if the app version key itself was updated
-                              old_sha = old_commits.get(version) or old_values[0]
-                              
-                              # Trigger if the commit hash changed
-                              if old_sha != new_sha:
-                                  plugin_name = url.split('/')[-1]
-                                  changelog_url = f"{url}/compare/{old_sha}...{new_sha}"
-                                  
-                                  # Creates a clean display string like: "a459c67...bd2cfc3"
-                                  display_text = f"{old_sha[:7]}...{new_sha[:7]}"
-                                  
-                                  with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
-                                      f.write(f"plugin_name={plugin_name}\n")
-                                      f.write(f"changelog_url={changelog_url}\n")
-                                      f.write(f"display_text={display_text}\n")
-                                  found = True
-                                  break
-                      if found:
+                  for url, new_sha in new_dict.items():
+                      old_sha = old_dict.get(url)
+                      if not old_sha or not new_sha:
+                          continue
+
+                      # Trigger if the commit hash changed
+                      if old_sha != new_sha:
+                          plugin_name = url.split('/')[-1]
+                          changelog_url = f"{url}/compare/{old_sha}...{new_sha}"
+
+                          # Creates a clean display string like: "a459c67...bd2cfc3"
+                          display_text = f"{old_sha[:7]}...{new_sha[:7]}"
+
+                          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+                              f.write(f"plugin_name={plugin_name}\n")
+                              f.write(f"changelog_url={changelog_url}\n")
+                              f.write(f"display_text={display_text}\n")
                           break
 
       - name: Send Message via Discord Bot

@@ -32,32 +32,34 @@ def find_outdated_assets(json_path: str):
     outdated_urls = []
     for asset in data:
         url = asset['url']
-        newest_commit_in_store = asset['commits'][max(asset['commits'])]
+        commit_in_store = asset.get('hash')
         newest_commit_on_github = get_newest_github_sha(url)
 
-        if newest_commit_in_store != newest_commit_on_github:
+        if commit_in_store != newest_commit_on_github:
             outdated_urls.append(url)
 
     return outdated_urls
 
-def update_assets(json_path: str, app_version: str = None):
+def update_assets(json_path: str):
     with open(json_path) as json_file:
         data = json.load(json_file)
 
     for asset in data:
         url = asset['url']
-        newest_commit_in_store = asset['commits'][max(asset['commits'])]
+        commit_in_store = asset.get('hash')
         newest_commit_on_github = get_newest_github_sha(url)
 
-        if newest_commit_in_store != newest_commit_on_github:
-            version = max(asset['commits']) if app_version is None else app_version
-            asset['commits'][version] = newest_commit_on_github
+        # get_newest_github_sha returns an error string when the API call fails —
+        # never write that into the store file
+        if not str(newest_commit_on_github).isalnum():
+            continue
+
+        if commit_in_store != newest_commit_on_github:
+            asset['hash'] = newest_commit_on_github
 
     with open(json_path, 'w') as json_file:
         json.dump(data, json_file, indent=4)
 
-APP_VERSION = "1.5.0-beta.5"
-
-update_assets('Plugins.json', app_version=APP_VERSION)
-update_assets('Icons.json', app_version=APP_VERSION)
-update_assets('Wallpapers.json', app_version=APP_VERSION)
+update_assets('Plugins.json')
+update_assets('Icons.json')
+update_assets('Wallpapers.json')

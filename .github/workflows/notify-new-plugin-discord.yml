@@ -49,10 +49,9 @@ jobs:
 
               for entry in new_entries:
                   url = entry["url"].rstrip("/")
-                  commits = entry.get("commits", {})
-                  if not commits:
+                  sha = entry.get("hash")
+                  if not sha:
                       continue
-                  sha = list(commits.values())[0]
 
                   owner = url.split("/")[-2]
                   repo_name = url.split("/")[-1]

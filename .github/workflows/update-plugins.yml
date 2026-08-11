@@ -21,10 +21,9 @@ jobs:
           REPO_URL: ${{ github.event.client_payload.repo_url }}
           COMMIT_SHA: ${{ github.event.client_payload.commit_sha }}
         run: |
-          # Dynamically grabs the first/only key name inside the commits object 
-          # (e.g. "1.5.0-beta") and updates its value to the new commit SHA.
+          # Sets the entry's hash to the new commit SHA.
           jq --arg url "$REPO_URL" --arg sha "$COMMIT_SHA" \
-            'map(if .url == $url then .commits[(.commits | keys[0])] = $sha else . end)' \
+            'map(if .url == $url then .hash = $sha else . end)' \
             Plugins.json > temp.json && mv temp.json Plugins.json
 
       - name: Extract Plugin Name
