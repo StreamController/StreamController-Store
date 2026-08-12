@@ -33,19 +33,6 @@ jobs:
           PLUGIN_NAME=$(echo "${{ github.event.client_payload.repo_url }}" | awk -F'/' '{print $5}')
           echo "name=$PLUGIN_NAME" >> $GITHUB_OUTPUT
 
-      - name: Close Old Pull Requests for this Plugin
-        env:
-          GH_TOKEN: ${{ secrets.STORE_AUTOMATION_TOKEN }}
-          PLUGIN_NAME: ${{ steps.plugin_info.outputs.name }}
-        run: |
-          # Search for any open PRs originating from a branch that belongs to this specific plugin
-          prs=$(gh pr list --state open --json headRefName,number --jq ".[] | select(.headRefName | startswith(\"update-plugin-$PLUGIN_NAME-\")) | .number")
-          
-          for pr in $prs; do
-            echo "Closing older unmerged PR #$pr"
-            gh pr close "$pr" --comment "Superseded by a newer push to the plugin repository."
-          done
-
       - name: Create New Pull Request
         uses: peter-evans/create-pull-request@v6
         with:
@@ -56,7 +43,8 @@ jobs:
             Automated update of commit hash for plugin: ${{ steps.plugin_info.outputs.name }}
             - **Version/Branch:** ${{ github.event.client_payload.version }}
             - **Commit SHA:** ${{ github.event.client_payload.commit_sha }}
-          # Appending the SHA makes the branch name unique, ensuring a brand-new PR is opened 
-          # rather than updating the previous one (which we closed in the step above).
-          branch: "update-plugin-${{ steps.plugin_info.outputs.name }}-${{ github.event.client_payload.commit_sha }}"
+          # Stable per-plugin branch name: create-pull-request reuses it (updating the
+          # existing open PR in place) instead of piling up a new branch per commit SHA.
+          branch: "update-plugin-${{ steps.plugin_info.outputs.name }}"
+          delete-branch: true
           base: main
