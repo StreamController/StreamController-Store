@@ -1,0 +1,11 @@
+[
+       {
+           "url": "https://github.com/Core447/sc-pages",
+           "pages": [
+               {
+                   "path": "numpad/numpad.scpage",
+                   "commit": "4310c20691f0500a0b78478fda877626ddddf6bc"
+               }
+           ]
+       }
+   ]
