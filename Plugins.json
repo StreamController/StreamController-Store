@@ -246,5 +246,21 @@
   {
     "url": "https://github.com/ENjxzlt/Claude-Code-Usage-Streamcontroller",
     "hash": "1582694b90ccafc2d33dac6fb790ec1d0604c43c"
+  },
+  {
+    "url": "https://github.com/GrantAbell/StreamController-LitraGlow",
+    "hash": "9b63ac8971f7cee8a8a17c4619cc8ad9268ece55"
+  },
+  {
+    "url": "https://github.com/GrantAbell/StreamController-BitfocusCompanion",
+    "hash": "93a20ee6fc8d5a9ad8eec44559128e9b76d5d5e4"
+  },
+  {
+    "url": "https://github.com/GrantAbell/StreamController-DiscordPlugin",
+    "hash": "a5152b9085f691f440a6bbc323b5e85a22c9a6b3"
+  },
+  {
+    "url": "https://github.com/GrantAbell/StreamController-Spotify",
+    "hash": "4edd1b38ea468b0d5fc17e9dca2fd23696e3f2ce"
   }
 ]
