@@ -254,5 +254,13 @@
   {
     "url": "https://github.com/GrantAbell/StreamController-BitfocusCompanion",
     "hash": "93a20ee6fc8d5a9ad8eec44559128e9b76d5d5e4"
+  },
+  {
+    "url": "https://github.com/GrantAbell/StreamController-DiscordPlugin",
+    "hash": "a5c2e358bc18a765b6c429a06579d0e931735c71"
+  },
+  {
+    "url": "https://github.com/GrantAbell/StreamController-Spotify",
+    "hash": "4a22c1cbd3841e6eca468a99f09c408e1767ce3d"
   }
 ]
