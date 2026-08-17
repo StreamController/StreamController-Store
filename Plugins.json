@@ -237,7 +237,10 @@
   },
   {
     "url": "https://github.com/oparada1988/DiscordSC",
-    "hash": "e22719e436aea4df20bcefb8441392e0d67551a9"
+    "hash": "e22719e436aea4df20bcefb8441392e0d67551a9",
+    "commits": {
+      "1.2.3": "606226b89b409c2f0edf4170c664d5c03d768ab7"
+    }
   },
   {
     "url": "https://github.com/seipass/CodexUsageInLinuxTreamDeck",
