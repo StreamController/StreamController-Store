@@ -225,7 +225,10 @@
   },
   {
     "url": "https://github.com/oparada1988/Volume-Controller-Plus",
-    "hash": "4746661e8c7015034769dfb4801aa8834f270d34"
+    "hash": "4746661e8c7015034769dfb4801aa8834f270d34",
+    "commits": {
+      "1.0.4": "79edab6cc1da30d96d18cac7f835084e44ebac16"
+    }
   },
   {
     "url": "https://github.com/oparada1988/Govee-Streamcontroller",
