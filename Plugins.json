@@ -232,7 +232,10 @@
   },
   {
     "url": "https://github.com/oparada1988/Govee-Streamcontroller",
-    "hash": "b5d4f85af02fb782f8fa6562d5a4947e086d7589"
+    "hash": "b5d4f85af02fb782f8fa6562d5a4947e086d7589",
+    "commits": {
+      "1.0.1": "355e0045a76585d403ce072da28fb922a0689209"
+    }
   },
   {
     "url": "https://github.com/julaub/StreamController-AMDGPUTop",
