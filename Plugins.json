@@ -271,12 +271,5 @@
   {
     "url": "https://github.com/GrantAbell/StreamController-Spotify",
     "hash": "4a22c1cbd3841e6eca468a99f09c408e1767ce3d"
-  },
-  {
-    "url": "https://github.com/oparada1988/TouchPulse",
-    "hash": "c53ea86d559411a5d208c4bd600306a346b8b006",
-    "commits": {
-      "1.0.0": "c53ea86d559411a5d208c4bd600306a346b8b006"
-    }
   }
 ]
