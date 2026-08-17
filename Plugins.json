@@ -225,14 +225,14 @@
   },
   {
     "url": "https://github.com/oparada1988/Volume-Controller-Plus",
-    "hash": "4746661e8c7015034769dfb4801aa8834f270d34",
+    "hash": "79edab6cc1da30d96d18cac7f835084e44ebac16",
     "commits": {
       "1.0.4": "79edab6cc1da30d96d18cac7f835084e44ebac16"
     }
   },
   {
     "url": "https://github.com/oparada1988/Govee-Streamcontroller",
-    "hash": "b5d4f85af02fb782f8fa6562d5a4947e086d7589",
+    "hash": "355e0045a76585d403ce072da28fb922a0689209",
     "commits": {
       "1.0.1": "355e0045a76585d403ce072da28fb922a0689209"
     }
@@ -243,7 +243,7 @@
   },
   {
     "url": "https://github.com/oparada1988/DiscordSC",
-    "hash": "e22719e436aea4df20bcefb8441392e0d67551a9",
+    "hash": "606226b89b409c2f0edf4170c664d5c03d768ab7",
     "commits": {
       "1.2.3": "606226b89b409c2f0edf4170c664d5c03d768ab7"
     }
