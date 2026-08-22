@@ -225,10 +225,11 @@
   },
   {
     "url": "https://github.com/oparada1988/Volume-Controller-Plus",
-    "hash": "15364bbf7c1d7b820c44b03f2095b3fc2338dc69",
+    "hash": "ee781a43d06157ab3e187b83a96b2777d5951e49",
     "commits": {
       "1.0.4": "290b5b90763ac3fe689227f5a525e00b04044da6",
-      "1.1.0": "15364bbf7c1d7b820c44b03f2095b3fc2338dc69"
+      "1.1.0": "700f93c70edda5a6627a7ca4cee870c72b04854d",
+      "1.1.1": "ee781a43d06157ab3e187b83a96b2777d5951e49"
     }
   },
   {
