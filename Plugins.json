@@ -273,5 +273,47 @@
   {
     "url": "https://github.com/GrantAbell/StreamController-Spotify",
     "hash": "4a22c1cbd3841e6eca468a99f09c408e1767ce3d"
+  },
+  {
+    "url": "https://github.com/jonasthim/streamcontroller-plugins",
+    "hash": "9f1cd58a406d71530bdadcbb7c84ea9a5b2a5570",
+    "commits": {
+      "1.0.0": "9f1cd58a406d71530bdadcbb7c84ea9a5b2a5570"
+    }
+  },
+  {
+    "url": "https://github.com/jonasthim/streamcontroller-plugins",
+    "hash": "462eb92f4b21e10b9ee0ac0ae333da052c8bff1a",
+    "commits": {
+      "1.0.0": "462eb92f4b21e10b9ee0ac0ae333da052c8bff1a"
+    }
+  },
+  {
+    "url": "https://github.com/jonasthim/streamcontroller-plugins",
+    "hash": "e368e3a7a2cf6077d07272a76f4b1f9a230f4e7b",
+    "commits": {
+      "1.0.0": "e368e3a7a2cf6077d07272a76f4b1f9a230f4e7b"
+    }
+  },
+  {
+    "url": "https://github.com/jonasthim/streamcontroller-plugins",
+    "hash": "f143f0c92f748f56143492c2871daf77030cacff",
+    "commits": {
+      "1.0.0": "f143f0c92f748f56143492c2871daf77030cacff"
+    }
+  },
+  {
+    "url": "https://github.com/jonasthim/streamcontroller-plugins",
+    "hash": "0427dd382043c8388a4aebab5b3a181cb4d4046f",
+    "commits": {
+      "1.0.0": "0427dd382043c8388a4aebab5b3a181cb4d4046f"
+    }
+  },
+  {
+    "url": "https://github.com/jonasthim/streamcontroller-plugins",
+    "hash": "8c5ba37a190e6e2a95b2cde3f41f785c815af914",
+    "commits": {
+      "1.0.0": "8c5ba37a190e6e2a95b2cde3f41f785c815af914"
+    }
   }
 ]
