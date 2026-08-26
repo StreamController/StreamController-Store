@@ -245,9 +245,10 @@
   },
   {
     "url": "https://github.com/oparada1988/DiscordSC",
-    "hash": "a2d6519d46bfb8fdb0dadf77e281df35f869ce5b",
+    "hash": "c1bf676f8113227870ccf367d6a14a2db8ed8929",
     "commits": {
-      "1.2.3": "a2d6519d46bfb8fdb0dadf77e281df35f869ce5b"
+      "1.2.3": "a2d6519d46bfb8fdb0dadf77e281df35f869ce5b",
+      "1.2.4": "c1bf676f8113227870ccf367d6a14a2db8ed8929"
     }
   },
   {
