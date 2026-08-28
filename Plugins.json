@@ -274,5 +274,11 @@
   {
     "url": "https://github.com/GrantAbell/StreamController-Spotify",
     "hash": "4a22c1cbd3841e6eca468a99f09c408e1767ce3d"
+  },
+  {
+    "url": "https://github.com/red-tux/ytmd_controller",
+    "commits": {
+      "1.5.0-beta.15": "7cddd9adc9312a58677388cf13bcd31439832325"
+    }
   }
 ]
