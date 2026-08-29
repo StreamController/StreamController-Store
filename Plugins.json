@@ -276,7 +276,9 @@
     "hash": "4a22c1cbd3841e6eca468a99f09c408e1767ce3d"
   },
   {
-  "url": "https://github.com/Mattdubs9699/SportsScores",
-  "hash": "836ef6c672fb9851b37e7af9a24d38b426069291"
-  }
+    "url": "https://github.com/red-tux/ytmd_controller",
+    "commits": {
+      "1.5.0-beta.15": "7cddd9adc9312a58677388cf13bcd31439832325"
+    }
+  },
 ]
