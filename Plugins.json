@@ -284,5 +284,12 @@
   {
     "url": "https://github.com/Mattdubs9699/SportsScores",
     "hash": "836ef6c672fb9851b37e7af9a24d38b426069291"
+  },
+  {
+    "url": "https://github.com/oparada1988/TouchPulse",
+    "hash": "a8b35f526a641a83b80e82f5423086375a12ec96",
+    "commits": {
+      "1.0.0": "a8b35f526a641a83b80e82f5423086375a12ec96"
+    }
   }
 ]
