@@ -291,5 +291,11 @@
     "commits": {
       "1.0.0": "a8b35f526a641a83b80e82f5423086375a12ec96"
     }
+  },
+  {
+    "url": "https://github.com/larkum/StreamController-WorldClocks",
+    "commits": {
+      "1.5.0-beta.16": "610e075124e05c2d73f6e46b7583da9ce48f4bde"
+    }
   }
 ]
