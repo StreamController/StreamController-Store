@@ -277,8 +277,10 @@
   },
   {
     "url": "https://github.com/red-tux/ytmd_controller",
+    "hash": "0cd5485e9ce9e2a7732bed7f6d66ce3fce628c91",
     "commits": {
-      "1.5.0-beta.15": "7cddd9adc9312a58677388cf13bcd31439832325"
+      "1.1.0": "0cd5485e9ce9e2a7732bed7f6d66ce3fce628c91",
+      "1.0.0": "7cddd9adc9312a58677388cf13bcd31439832325"
     }
   },
   {
