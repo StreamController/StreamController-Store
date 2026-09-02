@@ -278,5 +278,9 @@
   {
     "url": "https://github.com/larkum/StreamController-WorldClocks",
     "hash": "be2e34930b2363863a4bb8c7e7802cf4de0b2877"
+  },
+  {
+    "url": "https://github.com/morris178/StreamDeckHyprPlugin",
+    "hash": "e21317d27644f997cefcddd31835e083afbaea60"
   }
 ]
