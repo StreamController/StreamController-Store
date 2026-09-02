@@ -226,18 +226,10 @@
   {
     "url": "https://github.com/oparada1988/Volume-Controller-Plus",
     "hash": "ee781a43d06157ab3e187b83a96b2777d5951e49",
-    "commits": {
-      "1.0.4": "290b5b90763ac3fe689227f5a525e00b04044da6",
-      "1.1.0": "700f93c70edda5a6627a7ca4cee870c72b04854d",
-      "1.1.1": "ee781a43d06157ab3e187b83a96b2777d5951e49"
-    }
   },
   {
     "url": "https://github.com/oparada1988/Govee-Streamcontroller",
     "hash": "f09ed325c90d5ddf83e51b7ca9de45183d65e433",
-    "commits": {
-      "1.0.1": "f09ed325c90d5ddf83e51b7ca9de45183d65e433"
-    }
   },
   {
     "url": "https://github.com/julaub/StreamController-AMDGPUTop",
@@ -246,10 +238,6 @@
   {
     "url": "https://github.com/oparada1988/DiscordSC",
     "hash": "c1bf676f8113227870ccf367d6a14a2db8ed8929",
-    "commits": {
-      "1.2.3": "a2d6519d46bfb8fdb0dadf77e281df35f869ce5b",
-      "1.2.4": "c1bf676f8113227870ccf367d6a14a2db8ed8929"
-    }
   },
   {
     "url": "https://github.com/seipass/CodexUsageInLinuxTreamDeck",
@@ -277,9 +265,7 @@
   },
   {
     "url": "https://github.com/red-tux/ytmd_controller",
-    "commits": {
-      "1.5.0-beta.15": "7cddd9adc9312a58677388cf13bcd31439832325"
-    }
+    "hash": "7cddd9adc9312a58677388cf13bcd31439832325"
   },
   {
     "url": "https://github.com/Mattdubs9699/SportsScores",
@@ -288,15 +274,9 @@
   {
     "url": "https://github.com/oparada1988/TouchPulse",
     "hash": "a8b35f526a641a83b80e82f5423086375a12ec96",
-    "commits": {
-      "1.0.0": "a8b35f526a641a83b80e82f5423086375a12ec96"
-    }
   },
   {
     "url": "https://github.com/larkum/StreamController-WorldClocks",
-    "commits": {
-      "0.1.0": "be2e34930b2363863a4bb8c7e7802cf4de0b2877"
-    },
     "hash": "be2e34930b2363863a4bb8c7e7802cf4de0b2877"
   }
 ]
