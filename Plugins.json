@@ -65,7 +65,7 @@
   },
   {
     "url": "https://github.com/jslay88/streamcontroller_helldivers_2",
-    "hash": "55aebf4c6a9442fce13b4ba0c32971db5b7cdb03"
+    "hash": "b1461ec653f74910655821b37a5b583a729a0a21"
   },
   {
     "url": "https://github.com/gensyn/HomeAssistantPlugin",
@@ -137,7 +137,7 @@
   },
   {
     "url": "https://github.com/UlvFoerlev/EasySound",
-    "hash": "a04dc6743e2dc0429d26ee38ab2efc1ec308c32d"
+    "hash": "13cd620b321935ff94b33c9ed357d4b75568aa85"
   },
   {
     "url": "https://github.com/Tiebe/JetbrainsPlugin",
@@ -225,17 +225,11 @@
   },
   {
     "url": "https://github.com/oparada1988/Volume-Controller-Plus",
-    "hash": "290b5b90763ac3fe689227f5a525e00b04044da6",
-    "commits": {
-      "1.0.4": "290b5b90763ac3fe689227f5a525e00b04044da6"
-    }
+    "hash": "ee781a43d06157ab3e187b83a96b2777d5951e49"
   },
   {
     "url": "https://github.com/oparada1988/Govee-Streamcontroller",
-    "hash": "f09ed325c90d5ddf83e51b7ca9de45183d65e433",
-    "commits": {
-      "1.0.1": "f09ed325c90d5ddf83e51b7ca9de45183d65e433"
-    }
+    "hash": "f09ed325c90d5ddf83e51b7ca9de45183d65e433"
   },
   {
     "url": "https://github.com/julaub/StreamController-AMDGPUTop",
@@ -243,10 +237,7 @@
   },
   {
     "url": "https://github.com/oparada1988/DiscordSC",
-    "hash": "a2d6519d46bfb8fdb0dadf77e281df35f869ce5b",
-    "commits": {
-      "1.2.3": "a2d6519d46bfb8fdb0dadf77e281df35f869ce5b"
-    }
+    "hash": "c1bf676f8113227870ccf367d6a14a2db8ed8929"
   },
   {
     "url": "https://github.com/seipass/CodexUsageInLinuxTreamDeck",
@@ -254,7 +245,7 @@
   },
   {
     "url": "https://github.com/ENjxzlt/Claude-Code-Usage-Streamcontroller",
-    "hash": "1582694b90ccafc2d33dac6fb790ec1d0604c43c"
+    "hash": "d241cfe4babb0b176060e7f65d0578ead586ad1e"
   },
   {
     "url": "https://github.com/GrantAbell/StreamController-LitraGlow",
@@ -266,11 +257,31 @@
   },
   {
     "url": "https://github.com/GrantAbell/StreamController-DiscordPlugin",
-    "hash": "a5c2e358bc18a765b6c429a06579d0e931735c71"
+    "hash": "fef1fb4c84af22d05a28336b4f04aab1c0f69f8c"
   },
   {
     "url": "https://github.com/GrantAbell/StreamController-Spotify",
     "hash": "4a22c1cbd3841e6eca468a99f09c408e1767ce3d"
+  },
+  {
+    "url": "https://github.com/red-tux/ytmd_controller",
+    "hash": "0cd5485e9ce9e2a7732bed7f6d66ce3fce628c91"
+  },
+  {
+    "url": "https://github.com/Mattdubs9699/SportsScores",
+    "hash": "836ef6c672fb9851b37e7af9a24d38b426069291"
+  },
+  {
+    "url": "https://github.com/oparada1988/TouchPulse",
+    "hash": "a8b35f526a641a83b80e82f5423086375a12ec96"
+  },
+  {
+    "url": "https://github.com/larkum/StreamController-WorldClocks",
+    "hash": "be2e34930b2363863a4bb8c7e7802cf4de0b2877"
+  },
+  {
+    "url": "https://github.com/morris178/StreamDeckHyprPlugin",
+    "hash": "e21317d27644f997cefcddd31835e083afbaea60"
   },
   {
     "url": "https://github.com/ENjxzlt/Netbird-Streamcontroller",
