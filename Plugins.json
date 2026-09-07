@@ -275,45 +275,45 @@
     "hash": "4a22c1cbd3841e6eca468a99f09c408e1767ce3d"
   },
   {
-    "url": "https://github.com/jonasthim/streamcontroller-plugins",
-    "hash": "9f1cd58a406d71530bdadcbb7c84ea9a5b2a5570",
+    "url": "https://github.com/jonasthim/claude-code-stream-deck",
+    "hash": "5dc407d16f9e7b0f0410998b236024a5d66cc473",
     "commits": {
-      "1.0.0": "9f1cd58a406d71530bdadcbb7c84ea9a5b2a5570"
+      "1.0.0": "5dc407d16f9e7b0f0410998b236024a5d66cc473"
     }
   },
   {
-    "url": "https://github.com/jonasthim/streamcontroller-plugins",
-    "hash": "462eb92f4b21e10b9ee0ac0ae333da052c8bff1a",
+    "url": "https://github.com/jonasthim/home-assistant-stream-deck",
+    "hash": "77d3e0b64da17c2783d68e6f29f24e6dd2ffb645",
     "commits": {
-      "1.0.0": "462eb92f4b21e10b9ee0ac0ae333da052c8bff1a"
+      "1.0.0": "77d3e0b64da17c2783d68e6f29f24e6dd2ffb645"
     }
   },
   {
-    "url": "https://github.com/jonasthim/streamcontroller-plugins",
-    "hash": "e368e3a7a2cf6077d07272a76f4b1f9a230f4e7b",
+    "url": "https://github.com/jonasthim/navigation-stream-deck",
+    "hash": "f3e11de682e9be82818037c219d3b8addcc92869",
     "commits": {
-      "1.0.0": "e368e3a7a2cf6077d07272a76f4b1f9a230f4e7b"
+      "1.0.0": "f3e11de682e9be82818037c219d3b8addcc92869"
     }
   },
   {
-    "url": "https://github.com/jonasthim/streamcontroller-plugins",
-    "hash": "f143f0c92f748f56143492c2871daf77030cacff",
+    "url": "https://github.com/jonasthim/spotify-stream-deck",
+    "hash": "7477981ae3310e94f0f61616c4cf7c76514728cd",
     "commits": {
-      "1.0.0": "f143f0c92f748f56143492c2871daf77030cacff"
+      "1.0.0": "7477981ae3310e94f0f61616c4cf7c76514728cd"
     }
   },
   {
-    "url": "https://github.com/jonasthim/streamcontroller-plugins",
-    "hash": "0427dd382043c8388a4aebab5b3a181cb4d4046f",
+    "url": "https://github.com/jonasthim/system-stream-deck",
+    "hash": "26f788749df5925f3dd74bcce8951a7bccfc5bda",
     "commits": {
-      "1.0.0": "0427dd382043c8388a4aebab5b3a181cb4d4046f"
+      "1.0.0": "26f788749df5925f3dd74bcce8951a7bccfc5bda"
     }
   },
   {
-    "url": "https://github.com/jonasthim/streamcontroller-plugins",
-    "hash": "8c5ba37a190e6e2a95b2cde3f41f785c815af914",
+    "url": "https://github.com/jonasthim/volume-stream-deck-plus",
+    "hash": "008fa7e4fb17f0e3c7c69542931ccb973b4cb95d",
     "commits": {
-      "1.0.0": "8c5ba37a190e6e2a95b2cde3f41f785c815af914"
+      "1.0.0": "008fa7e4fb17f0e3c7c69542931ccb973b4cb95d"
     }
   }
 ]
