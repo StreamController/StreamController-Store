@@ -290,5 +290,9 @@
   {
     "url": "https://github.com/larkum/StreamController-SpeedtestPlus",
     "hash": "f2aa82563fa53997f9c2be26c316daf3f35d1ce0"
+  },
+  {
+    "url": "https://github.com/bensynapse/StreamController-LiveTennis",
+    "hash": "REPLACE_WITH_PLUGIN_COMMIT_SHA"
   }
 ]
