@@ -297,5 +297,9 @@
     "commits": {
       "0.1.0": "605ef25982d5feb3a94cfa14fb2003dc1bf288a7"
     }
+  },
+  {
+    "url": "https://github.com/caesarakalaeii/allchat-streamcontroller",
+    "hash": "9e57d5464cdd26cdcb8733786810f27156570f89"
   }
 ]
