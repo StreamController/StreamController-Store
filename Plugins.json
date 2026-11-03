@@ -297,5 +297,9 @@
     "commits": {
       "0.1.0": "605ef25982d5feb3a94cfa14fb2003dc1bf288a7"
     }
+  },
+    {
+      "url": "https://github.com/mrmicheall/com_mrmicheall_DisplayText",
+      "hash": "c9f5ac402c16f33847a396a31210fd3519d2806e"
   }
 ]
