@@ -297,5 +297,9 @@
     "commits": {
       "0.1.0": "605ef25982d5feb3a94cfa14fb2003dc1bf288a7"
     }
+  },
+  {
+    "url": "https://github.com/radiotaiso/aircraft-radar-streamcontroller",
+    "hash": "e163de7d6937289d20e1eeae25cae7f7be4f4768"
   }
 ]
