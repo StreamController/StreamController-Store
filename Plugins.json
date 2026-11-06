@@ -297,5 +297,9 @@
     "commits": {
       "0.1.0": "605ef25982d5feb3a94cfa14fb2003dc1bf288a7"
     }
+  },
+  {
+    "url": "https://github.com/DaveNay/StreamControllerLuxaforFlag",
+    "hash": "b7e68eec1fe17a6e51413c862f937511414713aa"
   }
 ]
