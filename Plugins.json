@@ -297,5 +297,9 @@
     "commits": {
       "0.1.0": "605ef25982d5feb3a94cfa14fb2003dc1bf288a7"
     }
+  },
+  {
+    "url": "https://github.com/EnginKarahan/streamcontroller-werkbank",
+    "hash": "b3e45c0bfdaf7267a87e3161d0d439a11f6b60ec"
   }
 ]
