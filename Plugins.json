@@ -69,7 +69,7 @@
   },
   {
     "url": "https://github.com/gensyn/HomeAssistantPlugin",
-    "hash": "f82334d96a1cbd977614bc4773cadbf0742ab728"
+    "hash": "183a4f4234f205a54207af6aa2e5d276318309d9"
   },
   {
     "url": "https://github.com/ImDevinC/StreamControllerTwitchPlugin",
@@ -301,5 +301,9 @@
   {
     "url": "https://github.com/radiotaiso/aircraft-radar-streamcontroller",
     "hash": "93a82ff6d8cc4235e42557bfaca5628c48cded6f"
+  },
+  {
+    "url": "https://github.com/caesarakalaeii/allchat-streamcontroller",
+    "hash": "7e5e37d4ba8438839e09a70e2f4f1394490ea756"
   }
 ]
